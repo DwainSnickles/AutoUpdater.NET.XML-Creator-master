@@ -235,7 +235,7 @@ namespace AutoUpdaterTest
             if (rbMandatoryFalse.Checked)
             {
                 XmlNode userNodemandatory = xmlDoc.CreateElement("mandatory");
-                userNodemandatory.InnerText = txtChangelogURL.Text;
+                userNodemandatory.InnerText = "false";
                 rootNode.AppendChild(userNodemandatory);
             }
 
