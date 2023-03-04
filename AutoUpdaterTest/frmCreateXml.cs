@@ -15,8 +15,6 @@ namespace AutoUpdaterTest
             InitializeComponent();
         }
 
-        List<string> XMLelements = new List<string>();
-
         /// <summary>
         /// Keeps track of current page
         /// </summary>
