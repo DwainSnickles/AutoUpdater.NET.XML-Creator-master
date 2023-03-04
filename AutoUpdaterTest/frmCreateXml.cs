@@ -232,13 +232,6 @@ namespace AutoUpdaterTest
                 rootNode.AppendChild(userNodeChecksum);
             }
 
-            if (rbMandatoryFalse.Checked)
-            {
-                XmlNode userNodemandatory = xmlDoc.CreateElement("mandatory");
-                userNodemandatory.InnerText = "false";
-                rootNode.AppendChild(userNodemandatory);
-            }
-
             if (rbMandatoryTrue.Checked)
             {
                 switch (ckbCustomMinVersion.Checked)
@@ -264,6 +257,12 @@ namespace AutoUpdaterTest
                     default:
                         break;
                 }
+            }
+            else
+            {
+                XmlNode userNodemandatory = xmlDoc.CreateElement("mandatory");
+                userNodemandatory.InnerText = "false";
+                rootNode.AppendChild(userNodemandatory);
             }
 
             xmlDoc.Save(txtSaveToFolder.Text + txtXmlFilename.Text);
