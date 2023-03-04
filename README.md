@@ -1,8 +1,12 @@
 # AutoUpdater.NET XML Creator
 This app is a component that creates custom xml file for Autoupdater.net.
+
 Includes all tags optional.
+
 At a minimum you need the first 2 tags
-Xml tags are only added based on answers in wizard. 
+
+Xml tags are only added based on answers in wizard.
+
 Clicking next on any page without adding anything ignores the tag.
 
 <code>
@@ -15,7 +19,7 @@ Clicking next on any page without adding anything ignores the tag.
         <mandatory minversion="1.7.0.0">true</mandatory>
         </item>
   
- </code>
+  </code>
 
 Includes all security tags optional.
 Includes custom <mandatory> tag default = false
