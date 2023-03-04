@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<item>
+	<version>1.0.0.0</version>
+	<url></url>
+	<changelog></changelog>
+	<mandatory></mandatory>
+	<!--<mandatory mode="2"></mandatory>-->
+	<!--<mandatory minVersion="1.2.0.0"></mandatory>-->
+	<!--<checksum algorithm="MD5">Update file Checksum</checksum>-->
+	<!--<checksum algorithm="MD5">test</checksum>-->
+</item>
+

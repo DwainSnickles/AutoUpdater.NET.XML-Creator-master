@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<item>
+	<version>2.1.0.0</version>
+	<changelog>https://sourcecodedepot.com/update/releases/index.html</changelog>
+	<url>https://sourcecodedepot.com/update/YTD21.zip</url>
+	<checksum algorithm="MD5">61e376fafe15ffb9247ff95bfa947a85</checksum>
+	<mandatory>false</mandatory>
+</item>
