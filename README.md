@@ -1,7 +1,7 @@
 # AutoUpdater.NET XML Creator
 This app is a component that creates custom xml file for Autoupdater.net.
 
-Updated 3/6/2023 Making the following 7 canges plus many little bugs and or improvements
+Updated 3/6/2023 Making the following 7 major changes plus many little bugs and or improvements
 
 1)	Added button to find version by selection the new exe file.
 2)	Added button to auto create the Algorithm for all supported types.
