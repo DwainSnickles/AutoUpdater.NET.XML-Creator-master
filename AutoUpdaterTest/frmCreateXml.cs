@@ -310,7 +310,7 @@ namespace AutoUpdaterTest
 
             if (txtXmlFilename.Text != string.Empty)
             {
-                xMLitems.xmlFileName = txtCheckSum.Text;
+                xMLitems.xmlFileName = txtXmlFilename.Text;
 
                 if (!xMLitems.xmlFileName.EndsWith(".xml"))
                 {
@@ -333,7 +333,8 @@ namespace AutoUpdaterTest
         {
             FolderBrowserDialog fbd = new FolderBrowserDialog();
             fbd.ShowDialog();
-            txtSaveToFolder.Text = fbd.SelectedPath;
+            txtSaveToFolder.Text = fbd.SelectedPath + "\\";
+            xMLitems.xmlFolderPath = txtSaveToFolder.Text;
         }
 
         private void btnCreateXMLFile_Click(object sender, EventArgs e)
@@ -341,9 +342,9 @@ namespace AutoUpdaterTest
             if (txtXmlFilename.Text != string.Empty && txtSaveToFolder.Text != string.Empty)
             {
                 createXML(); 
-                pnl6A.Visible = true;
-                pnl6.BringToFront();
-                pnl6A.Dock = DockStyle.Bottom;
+                //pnl6A.Visible = true;
+                //pnl6.BringToFront();
+                //pnl6A.Dock = DockStyle.Bottom;
             }
             else { MessageBox.Show("Both answers are required. Please try again", "Can't Write XML"); pnl6A.Visible = false; }
         }
@@ -667,7 +668,7 @@ namespace AutoUpdaterTest
 
                 pnl6A.Enabled = true;
                 xmlDoc.Save(xMLitems.xmlFolderPath + xMLitems.xmlFileName);
-                Process.Start(xMLitems.xmlFolderPath + xMLitems.xmlFileName);
+                //Process.Start(xMLitems.xmlFolderPath + xMLitems.xmlFileName);
             }
             catch (Exception)
             {
