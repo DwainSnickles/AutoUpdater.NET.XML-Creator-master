@@ -1,15 +1,4 @@
 # AutoUpdater.NET XML Creator
-3/6/2020 Made several improvements
-Thanks to some great feed back from Ravi 
-
-1)	Added button to find version by selection the new exe file.
-2)	Added button to auto create the Algorithm for all supported types.
-3)	Re imagined the different Update types now used radio buttons to select update type.
-4)	Added the Option <args> tag to xml
-5)	The first 2 screens will not forward without being completed as they are required as minimum.
-6)	Added icons to butttons.
-7)	Added a exit button.
-
 This app is a component that creates custom xml file for Autoupdater.net.
 
 Includes all tags optional.

@@ -1,0 +1,50 @@
+D:\Downloads\AutoUpdater.NET-master (1)\AutoUpdater.NET-master\AutoUpdaterTest\bin\Debug\AutoUpdaterTest.exe
+D:\Downloads\AutoUpdater.NET-master (1)\AutoUpdater.NET-master\AutoUpdaterTest\bin\Debug\AutoUpdaterTest.pdb
+D:\Downloads\AutoUpdater.NET-master (1)\AutoUpdater.NET-master\AutoUpdaterTest\bin\Debug\AutoUpdater.NET.dll
+D:\Downloads\AutoUpdater.NET-master (1)\AutoUpdater.NET-master\AutoUpdaterTest\bin\Debug\AutoUpdater.NET.pdb
+D:\Downloads\AutoUpdater.NET-master (1)\AutoUpdater.NET-master\AutoUpdaterTest\bin\Debug\AutoUpdater.NET.xml
+D:\Downloads\AutoUpdater.NET-master (1)\AutoUpdater.NET-master\AutoUpdaterTest\bin\Debug\da\AutoUpdater.NET.resources.dll
+D:\Downloads\AutoUpdater.NET-master (1)\AutoUpdater.NET-master\AutoUpdaterTest\bin\Debug\de\AutoUpdater.NET.resources.dll
+D:\Downloads\AutoUpdater.NET-master (1)\AutoUpdater.NET-master\AutoUpdaterTest\bin\Debug\es\AutoUpdater.NET.resources.dll
+D:\Downloads\AutoUpdater.NET-master (1)\AutoUpdater.NET-master\AutoUpdaterTest\bin\Debug\fr\AutoUpdater.NET.resources.dll
+D:\Downloads\AutoUpdater.NET-master (1)\AutoUpdater.NET-master\AutoUpdaterTest\bin\Debug\it-IT\AutoUpdater.NET.resources.dll
+D:\Downloads\AutoUpdater.NET-master (1)\AutoUpdater.NET-master\AutoUpdaterTest\bin\Debug\nl\AutoUpdater.NET.resources.dll
+D:\Downloads\AutoUpdater.NET-master (1)\AutoUpdater.NET-master\AutoUpdaterTest\bin\Debug\pl\AutoUpdater.NET.resources.dll
+D:\Downloads\AutoUpdater.NET-master (1)\AutoUpdater.NET-master\AutoUpdaterTest\bin\Debug\ru\AutoUpdater.NET.resources.dll
+D:\Downloads\AutoUpdater.NET-master (1)\AutoUpdater.NET-master\AutoUpdaterTest\bin\Debug\sv\AutoUpdater.NET.resources.dll
+D:\Downloads\AutoUpdater.NET-master (1)\AutoUpdater.NET-master\AutoUpdaterTest\bin\Debug\tr-TR\AutoUpdater.NET.resources.dll
+D:\Downloads\AutoUpdater.NET-master (1)\AutoUpdater.NET-master\AutoUpdaterTest\bin\Debug\zh-Hans\AutoUpdater.NET.resources.dll
+D:\Downloads\AutoUpdater.NET-master (1)\AutoUpdater.NET-master\AutoUpdaterTest\obj\Debug\AutoUpdaterTest.csproj.AssemblyReference.cache
+D:\Downloads\AutoUpdater.NET-master (1)\AutoUpdater.NET-master\AutoUpdaterTest\obj\Debug\AutoUpdaterTest.FormMain.resources
+D:\Downloads\AutoUpdater.NET-master (1)\AutoUpdater.NET-master\AutoUpdaterTest\obj\Debug\AutoUpdaterTest.Properties.Resources.resources
+D:\Downloads\AutoUpdater.NET-master (1)\AutoUpdater.NET-master\AutoUpdaterTest\obj\Debug\AutoUpdaterTest.csproj.GenerateResource.cache
+D:\Downloads\AutoUpdater.NET-master (1)\AutoUpdater.NET-master\AutoUpdaterTest\obj\Debug\AutoUpdaterTest.csproj.CoreCompileInputs.cache
+D:\Downloads\AutoUpdater.NET-master (1)\AutoUpdater.NET-master\AutoUpdaterTest\obj\Debug\AutoUpdaterTest.csproj.CopyComplete
+D:\Downloads\AutoUpdater.NET-master (1)\AutoUpdater.NET-master\AutoUpdaterTest\obj\Debug\AutoUpdaterTest.exe
+D:\Downloads\AutoUpdater.NET-master (1)\AutoUpdater.NET-master\AutoUpdaterTest\obj\Debug\AutoUpdaterTest.pdb
+D:\repos\AutoUpdater.NET-master\AutoUpdaterTest\obj\Debug\AutoUpdaterTest.frmCreateXml.resources
+D:\repos\AutoUpdater.NET-master\AutoUpdaterTest\obj\Debug\AutoUpdaterTest.Properties.Resources.resources
+D:\repos\AutoUpdater.NET-master\AutoUpdaterTest\obj\Debug\AutoUpdaterTest.csproj.GenerateResource.cache
+D:\repos\AutoUpdater.NET-master\AutoUpdaterTest\obj\Debug\AutoUpdaterTest.csproj.CoreCompileInputs.cache
+D:\repos\AutoUpdater.NET-master\AutoUpdaterTest\bin\Debug\AutoUpdaterTest.exe.config
+D:\repos\AutoUpdater.NET-master\AutoUpdaterTest\bin\Debug\AutoUpdaterTest.exe
+D:\repos\AutoUpdater.NET-master\AutoUpdaterTest\bin\Debug\AutoUpdaterTest.pdb
+D:\repos\AutoUpdater.NET-master\AutoUpdaterTest\bin\Debug\AutoUpdater.NET.dll
+D:\repos\AutoUpdater.NET-master\AutoUpdaterTest\bin\Debug\AutoUpdater.NET.pdb
+D:\repos\AutoUpdater.NET-master\AutoUpdaterTest\bin\Debug\AutoUpdater.NET.xml
+D:\repos\AutoUpdater.NET-master\AutoUpdaterTest\bin\Debug\da\AutoUpdater.NET.resources.dll
+D:\repos\AutoUpdater.NET-master\AutoUpdaterTest\bin\Debug\de\AutoUpdater.NET.resources.dll
+D:\repos\AutoUpdater.NET-master\AutoUpdaterTest\bin\Debug\es\AutoUpdater.NET.resources.dll
+D:\repos\AutoUpdater.NET-master\AutoUpdaterTest\bin\Debug\fr\AutoUpdater.NET.resources.dll
+D:\repos\AutoUpdater.NET-master\AutoUpdaterTest\bin\Debug\it-IT\AutoUpdater.NET.resources.dll
+D:\repos\AutoUpdater.NET-master\AutoUpdaterTest\bin\Debug\nl\AutoUpdater.NET.resources.dll
+D:\repos\AutoUpdater.NET-master\AutoUpdaterTest\bin\Debug\pl\AutoUpdater.NET.resources.dll
+D:\repos\AutoUpdater.NET-master\AutoUpdaterTest\bin\Debug\ru\AutoUpdater.NET.resources.dll
+D:\repos\AutoUpdater.NET-master\AutoUpdaterTest\bin\Debug\sv\AutoUpdater.NET.resources.dll
+D:\repos\AutoUpdater.NET-master\AutoUpdaterTest\bin\Debug\tr-TR\AutoUpdater.NET.resources.dll
+D:\repos\AutoUpdater.NET-master\AutoUpdaterTest\bin\Debug\zh-Hans\AutoUpdater.NET.resources.dll
+D:\repos\AutoUpdater.NET-master\AutoUpdaterTest\obj\Debug\AutoUpdaterTest.csproj.CopyComplete
+D:\repos\AutoUpdater.NET-master\AutoUpdaterTest\obj\Debug\AutoUpdaterTest.exe
+D:\repos\AutoUpdater.NET-master\AutoUpdaterTest\obj\Debug\AutoUpdaterTest.pdb
+D:\repos\AutoUpdater.NET-master\AutoUpdaterTest\obj\Debug\AutoUpdaterTest.csproj.AssemblyReference.cache
+D:\repos\AutoUpdater.NET-master\AutoUpdaterTest\bin\Debug\AutoUpdater.NET.dll.config
