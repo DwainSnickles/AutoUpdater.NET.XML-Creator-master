@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Text;
@@ -674,5 +675,17 @@ namespace AutoUpdaterTest
             }
         }
 
+        private void btnGetVersion_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog ofd = new OpenFileDialog();
+            ofd.InitialDirectory = Environment.CurrentDirectory;
+
+            ofd.ShowDialog();
+
+            if (ofd.FileName != string.Empty)
+            {
+                txtNewVersion.Text = Assembly.GetEntryAssembly().GetName().Version.ToString();
+            }
+        }
     }
 }

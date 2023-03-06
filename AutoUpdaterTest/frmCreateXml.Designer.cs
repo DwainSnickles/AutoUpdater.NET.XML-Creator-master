@@ -34,42 +34,46 @@ namespace AutoUpdaterTest
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.labelStatus = new System.Windows.Forms.ToolStripStatusLabel();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnExit = new System.Windows.Forms.Button();
+            this.btnBack = new System.Windows.Forms.Button();
+            this.btnNext = new System.Windows.Forms.Button();
             this.pnlChangelog = new System.Windows.Forms.Panel();
             this.label20 = new System.Windows.Forms.Label();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.txtChangelogURL = new System.Windows.Forms.TextBox();
             this.label19 = new System.Windows.Forms.Label();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.pnl6 = new System.Windows.Forms.Panel();
+            this.pnl6A = new System.Windows.Forms.Panel();
+            this.btnOpenXmlFolder = new System.Windows.Forms.Button();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
+            this.btnOpenXMLFile = new System.Windows.Forms.Button();
+            this.btnSelectFolder_Click = new System.Windows.Forms.Button();
+            this.btnCreateXMLFile = new System.Windows.Forms.Button();
             this.txtSaveToFolder = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
             this.txtXmlFilename = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.pnlSetMinversion = new System.Windows.Forms.Panel();
-            this.txtMinVersion = new System.Windows.Forms.TextBox();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.pnl5 = new System.Windows.Forms.Panel();
-            this.label17 = new System.Windows.Forms.Label();
-            this.txtCommandLineArgs = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
             this.pnl2 = new System.Windows.Forms.Panel();
             this.label16 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
             this.txtDownloadURL = new System.Windows.Forms.TextBox();
+            this.picDownloadURL = new System.Windows.Forms.PictureBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.pnl1 = new System.Windows.Forms.Panel();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.txtNewVersion = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.pnl3 = new System.Windows.Forms.Panel();
+            this.rbMandatoryMinimumVersion = new System.Windows.Forms.RadioButton();
+            this.rbMandatoryMode2 = new System.Windows.Forms.RadioButton();
+            this.rbMandatoryMode1 = new System.Windows.Forms.RadioButton();
+            this.rbMandatory = new System.Windows.Forms.RadioButton();
+            this.rbOptionalUpdate = new System.Windows.Forms.RadioButton();
+            this.label18 = new System.Windows.Forms.Label();
             this.pnl4 = new System.Windows.Forms.Panel();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.btnCalculateChecksum = new System.Windows.Forms.Button();
             this.cmbCheckSum = new System.Windows.Forms.ComboBox();
             this.label6 = new System.Windows.Forms.Label();
@@ -79,57 +83,54 @@ namespace AutoUpdaterTest
             this.txtCheckSum = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
-            this.pnl3 = new System.Windows.Forms.Panel();
-            this.rbMandatoryMinimumVersion = new System.Windows.Forms.RadioButton();
-            this.rbMandatoryMode2 = new System.Windows.Forms.RadioButton();
-            this.rbMandatoryMode1 = new System.Windows.Forms.RadioButton();
-            this.rbMandatory = new System.Windows.Forms.RadioButton();
-            this.rbOptionalUpdate = new System.Windows.Forms.RadioButton();
-            this.label18 = new System.Windows.Forms.Label();
-            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.btnSelectFolder_Click = new System.Windows.Forms.Button();
-            this.btnCreateXMLFile = new System.Windows.Forms.Button();
+            this.pnlSetMinversion = new System.Windows.Forms.Panel();
             this.btnNextPrevVersion = new System.Windows.Forms.PictureBox();
+            this.txtMinVersion = new System.Windows.Forms.TextBox();
             this.btnPrevMinVersion = new System.Windows.Forms.PictureBox();
             this.picMinVersion = new System.Windows.Forms.PictureBox();
-            this.picDownloadURL = new System.Windows.Forms.PictureBox();
-            this.picVersionStatus = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.btnExit = new System.Windows.Forms.Button();
-            this.btnBack = new System.Windows.Forms.Button();
-            this.btnNext = new System.Windows.Forms.Button();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.pnl5 = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pnl6A = new System.Windows.Forms.Panel();
-            this.btnOpenXmlFolder = new System.Windows.Forms.Button();
-            this.btnOpenXMLFile = new System.Windows.Forms.Button();
+            this.label17 = new System.Windows.Forms.Label();
+            this.txtCommandLineArgs = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.pnl1 = new System.Windows.Forms.Panel();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.picVersionStatus = new System.Windows.Forms.PictureBox();
+            this.txtNewVersion = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.btnGetVersion = new System.Windows.Forms.Button();
             this.statusStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.pnlChangelog.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
             this.pnl6.SuspendLayout();
-            this.pnlSetMinversion.SuspendLayout();
-            this.pnl5.SuspendLayout();
+            this.pnl6A.SuspendLayout();
             this.pnl2.SuspendLayout();
-            this.pnl1.SuspendLayout();
-            this.pnl4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picDownloadURL)).BeginInit();
             this.pnl3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.pnl4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            this.pnlSetMinversion.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnNextPrevVersion)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnPrevMinVersion)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picMinVersion)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picDownloadURL)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picVersionStatus)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            this.pnl5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            this.pnl6A.SuspendLayout();
+            this.pnl1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picVersionStatus)).BeginInit();
             this.SuspendLayout();
             // 
             // statusStrip1
@@ -162,6 +163,41 @@ namespace AutoUpdaterTest
             this.panel1.Size = new System.Drawing.Size(397, 66);
             this.panel1.TabIndex = 1;
             // 
+            // btnExit
+            // 
+            this.btnExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExit.Image = global::AutoUpdaterTest.Properties.Resources.Exit;
+            this.btnExit.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnExit.Location = new System.Drawing.Point(314, 3);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(81, 38);
+            this.btnExit.TabIndex = 5;
+            this.btnExit.Text = "Exit";
+            this.btnExit.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
+            // 
+            // btnBack
+            // 
+            this.btnBack.Image = global::AutoUpdaterTest.Properties.Resources.Previous;
+            this.btnBack.Location = new System.Drawing.Point(1, 3);
+            this.btnBack.Name = "btnBack";
+            this.btnBack.Size = new System.Drawing.Size(124, 39);
+            this.btnBack.TabIndex = 4;
+            this.btnBack.UseVisualStyleBackColor = true;
+            this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
+            // 
+            // btnNext
+            // 
+            this.btnNext.Enabled = false;
+            this.btnNext.Image = global::AutoUpdaterTest.Properties.Resources.Next1;
+            this.btnNext.Location = new System.Drawing.Point(134, 3);
+            this.btnNext.Name = "btnNext";
+            this.btnNext.Size = new System.Drawing.Size(124, 39);
+            this.btnNext.TabIndex = 3;
+            this.btnNext.UseVisualStyleBackColor = true;
+            this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
+            // 
             // pnlChangelog
             // 
             this.pnlChangelog.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
@@ -185,6 +221,17 @@ namespace AutoUpdaterTest
             this.label20.Text = "changelog (Optional): You need to provide URL of the change log of your applicati" +
     "on between changelog tags. If you don\'t provide the URL of the changelog then up" +
     "date dialog won\'t show the change log.";
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::AutoUpdaterTest.Properties.Resources.Optional;
+            this.pictureBox4.Location = new System.Drawing.Point(233, 115);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(34, 25);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 18;
+            this.pictureBox4.TabStop = false;
+            this.toolTip1.SetToolTip(this.pictureBox4, "This is Optional.");
             // 
             // txtChangelogURL
             // 
@@ -217,6 +264,7 @@ namespace AutoUpdaterTest
             // 
             // splitContainer1.Panel2
             // 
+            this.splitContainer1.Panel2.Controls.Add(this.pnl1);
             this.splitContainer1.Panel2.Controls.Add(this.pnl6);
             this.splitContainer1.Panel2.Controls.Add(this.pnl2);
             this.splitContainer1.Panel2.Controls.Add(this.pnl3);
@@ -224,10 +272,20 @@ namespace AutoUpdaterTest
             this.splitContainer1.Panel2.Controls.Add(this.pnlSetMinversion);
             this.splitContainer1.Panel2.Controls.Add(this.pnl5);
             this.splitContainer1.Panel2.Controls.Add(this.pnlChangelog);
-            this.splitContainer1.Panel2.Controls.Add(this.pnl1);
             this.splitContainer1.Size = new System.Drawing.Size(394, 178);
             this.splitContainer1.SplitterDistance = 111;
             this.splitContainer1.TabIndex = 2;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox1.Image = global::AutoUpdaterTest.Properties.Resources.AutoUpdateCloud;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 32);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(111, 114);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox1.TabIndex = 2;
+            this.pictureBox1.TabStop = false;
             // 
             // panel3
             // 
@@ -281,11 +339,36 @@ namespace AutoUpdaterTest
             this.pnl6.Controls.Add(this.label15);
             this.pnl6.Controls.Add(this.txtXmlFilename);
             this.pnl6.Controls.Add(this.label9);
-            this.pnl6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnl6.Location = new System.Drawing.Point(0, 0);
+            this.pnl6.Location = new System.Drawing.Point(196, 96);
             this.pnl6.Name = "pnl6";
-            this.pnl6.Size = new System.Drawing.Size(279, 178);
+            this.pnl6.Size = new System.Drawing.Size(83, 82);
             this.pnl6.TabIndex = 8;
+            // 
+            // pnl6A
+            // 
+            this.pnl6A.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pnl6A.Controls.Add(this.btnOpenXmlFolder);
+            this.pnl6A.Controls.Add(this.btnOpenXMLFile);
+            this.pnl6A.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.pnl6A.Enabled = false;
+            this.pnl6A.Location = new System.Drawing.Point(0, 37);
+            this.pnl6A.Name = "pnl6A";
+            this.pnl6A.Size = new System.Drawing.Size(79, 41);
+            this.pnl6A.TabIndex = 8;
+            // 
+            // btnOpenXmlFolder
+            // 
+            this.btnOpenXmlFolder.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnOpenXmlFolder.ImageIndex = 0;
+            this.btnOpenXmlFolder.ImageList = this.imageList1;
+            this.btnOpenXmlFolder.Location = new System.Drawing.Point(149, 7);
+            this.btnOpenXmlFolder.Name = "btnOpenXmlFolder";
+            this.btnOpenXmlFolder.Size = new System.Drawing.Size(117, 23);
+            this.btnOpenXmlFolder.TabIndex = 8;
+            this.btnOpenXmlFolder.Text = "      Open XMLFolder";
+            this.toolTip1.SetToolTip(this.btnOpenXmlFolder, "Opens the  XML file in file explorer.");
+            this.btnOpenXmlFolder.UseVisualStyleBackColor = true;
+            this.btnOpenXmlFolder.Click += new System.EventHandler(this.btnOpenXmlFolder_Click_1);
             // 
             // imageList1
             // 
@@ -299,6 +382,47 @@ namespace AutoUpdaterTest
             this.imageList1.Images.SetKeyName(5, "xmlWrite.png");
             this.imageList1.Images.SetKeyName(6, "Folder1.png");
             this.imageList1.Images.SetKeyName(7, "dial_knob.png");
+            // 
+            // btnOpenXMLFile
+            // 
+            this.btnOpenXMLFile.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnOpenXMLFile.ImageIndex = 1;
+            this.btnOpenXMLFile.ImageList = this.imageList1;
+            this.btnOpenXMLFile.Location = new System.Drawing.Point(10, 7);
+            this.btnOpenXMLFile.Name = "btnOpenXMLFile";
+            this.btnOpenXMLFile.Size = new System.Drawing.Size(121, 23);
+            this.btnOpenXMLFile.TabIndex = 7;
+            this.btnOpenXMLFile.Text = "View XML File";
+            this.toolTip1.SetToolTip(this.btnOpenXMLFile, "Opens the  XML file in Browser");
+            this.btnOpenXMLFile.UseVisualStyleBackColor = true;
+            this.btnOpenXMLFile.Click += new System.EventHandler(this.btnOpenXMLFile_Click_1);
+            // 
+            // btnSelectFolder_Click
+            // 
+            this.btnSelectFolder_Click.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSelectFolder_Click.ImageIndex = 6;
+            this.btnSelectFolder_Click.ImageList = this.imageList1;
+            this.btnSelectFolder_Click.Location = new System.Drawing.Point(239, 75);
+            this.btnSelectFolder_Click.Name = "btnSelectFolder_Click";
+            this.btnSelectFolder_Click.Size = new System.Drawing.Size(32, 23);
+            this.btnSelectFolder_Click.TabIndex = 7;
+            this.toolTip1.SetToolTip(this.btnSelectFolder_Click, "Select the folder to save the XML file to.");
+            this.btnSelectFolder_Click.UseVisualStyleBackColor = true;
+            this.btnSelectFolder_Click.Click += new System.EventHandler(this.btnOpenXmlFolder_Click);
+            // 
+            // btnCreateXMLFile
+            // 
+            this.btnCreateXMLFile.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnCreateXMLFile.ImageIndex = 5;
+            this.btnCreateXMLFile.ImageList = this.imageList1;
+            this.btnCreateXMLFile.Location = new System.Drawing.Point(72, 103);
+            this.btnCreateXMLFile.Name = "btnCreateXMLFile";
+            this.btnCreateXMLFile.Size = new System.Drawing.Size(133, 23);
+            this.btnCreateXMLFile.TabIndex = 5;
+            this.btnCreateXMLFile.Text = "  Create XML File";
+            this.toolTip1.SetToolTip(this.btnCreateXMLFile, "Creates the XML File");
+            this.btnCreateXMLFile.UseVisualStyleBackColor = true;
+            this.btnCreateXMLFile.Click += new System.EventHandler(this.btnCreateXMLFile_Click);
             // 
             // txtSaveToFolder
             // 
@@ -333,98 +457,6 @@ namespace AutoUpdaterTest
             this.label9.Size = new System.Drawing.Size(102, 13);
             this.label9.TabIndex = 0;
             this.label9.Text = "Enter XML filename:";
-            // 
-            // pnlSetMinversion
-            // 
-            this.pnlSetMinversion.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pnlSetMinversion.Controls.Add(this.btnNextPrevVersion);
-            this.pnlSetMinversion.Controls.Add(this.txtMinVersion);
-            this.pnlSetMinversion.Controls.Add(this.btnPrevMinVersion);
-            this.pnlSetMinversion.Controls.Add(this.picMinVersion);
-            this.pnlSetMinversion.Controls.Add(this.label22);
-            this.pnlSetMinversion.Controls.Add(this.label21);
-            this.pnlSetMinversion.Location = new System.Drawing.Point(19, 56);
-            this.pnlSetMinversion.Name = "pnlSetMinversion";
-            this.pnlSetMinversion.Size = new System.Drawing.Size(67, 56);
-            this.pnlSetMinversion.TabIndex = 9;
-            // 
-            // txtMinVersion
-            // 
-            this.txtMinVersion.Location = new System.Drawing.Point(8, 135);
-            this.txtMinVersion.Name = "txtMinVersion";
-            this.txtMinVersion.Size = new System.Drawing.Size(89, 20);
-            this.txtMinVersion.TabIndex = 23;
-            this.txtMinVersion.TextChanged += new System.EventHandler(this.txtMinVersion_TextChanged);
-            this.txtMinVersion.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtMinimunVersion_KeyPress);
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.Location = new System.Drawing.Point(4, 116);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(135, 13);
-            this.label22.TabIndex = 20;
-            this.label22.Text = "Enter Minimum Version";
-            // 
-            // label21
-            // 
-            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(5, 5);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(265, 100);
-            this.label21.TabIndex = 19;
-            this.label21.Text = resources.GetString("label21.Text");
-            // 
-            // pnl5
-            // 
-            this.pnl5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pnl5.Controls.Add(this.pictureBox2);
-            this.pnl5.Controls.Add(this.label17);
-            this.pnl5.Controls.Add(this.txtCommandLineArgs);
-            this.pnl5.Controls.Add(this.label7);
-            this.pnl5.Controls.Add(this.label8);
-            this.pnl5.Location = new System.Drawing.Point(103, 67);
-            this.pnl5.Name = "pnl5";
-            this.pnl5.Size = new System.Drawing.Size(57, 48);
-            this.pnl5.TabIndex = 10;
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(24, 153);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(203, 16);
-            this.label17.TabIndex = 26;
-            this.label17.Text = "(Optional Click Next To Continue)";
-            // 
-            // txtCommandLineArgs
-            // 
-            this.txtCommandLineArgs.Location = new System.Drawing.Point(3, 126);
-            this.txtCommandLineArgs.Name = "txtCommandLineArgs";
-            this.txtCommandLineArgs.Size = new System.Drawing.Size(267, 20);
-            this.txtCommandLineArgs.TabIndex = 25;
-            this.txtCommandLineArgs.TextChanged += new System.EventHandler(this.txtCommandLineArgs_TextChanged_1);
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(4, 105);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(115, 15);
-            this.label7.TabIndex = 24;
-            this.label7.Text = "Enter Optional Args:";
-            // 
-            // label8
-            // 
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(4, 19);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(268, 69);
-            this.label8.TabIndex = 23;
-            this.label8.Text = resources.GetString("label8.Text");
             // 
             // pnl2
             // 
@@ -466,6 +498,16 @@ namespace AutoUpdaterTest
             this.txtDownloadURL.TabIndex = 5;
             this.txtDownloadURL.TextChanged += new System.EventHandler(this.txtDownloadURL_TextChanged);
             // 
+            // picDownloadURL
+            // 
+            this.picDownloadURL.Image = global::AutoUpdaterTest.Properties.Resources.RedX;
+            this.picDownloadURL.Location = new System.Drawing.Point(229, 134);
+            this.picDownloadURL.Name = "picDownloadURL";
+            this.picDownloadURL.Size = new System.Drawing.Size(34, 25);
+            this.picDownloadURL.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picDownloadURL.TabIndex = 18;
+            this.picDownloadURL.TabStop = false;
+            // 
             // label5
             // 
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -475,70 +517,88 @@ namespace AutoUpdaterTest
             this.label5.TabIndex = 4;
             this.label5.Text = resources.GetString("label5.Text");
             // 
-            // pnl1
+            // pnl3
             // 
-            this.pnl1.BackColor = System.Drawing.Color.Orange;
-            this.pnl1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pnl1.Controls.Add(this.label10);
-            this.pnl1.Controls.Add(this.label11);
-            this.pnl1.Controls.Add(this.picVersionStatus);
-            this.pnl1.Controls.Add(this.txtNewVersion);
-            this.pnl1.Controls.Add(this.label4);
-            this.pnl1.Controls.Add(this.label3);
-            this.pnl1.Location = new System.Drawing.Point(3, 8);
-            this.pnl1.Name = "pnl1";
-            this.pnl1.Size = new System.Drawing.Size(49, 32);
-            this.pnl1.TabIndex = 1;
+            this.pnl3.Controls.Add(this.rbMandatoryMinimumVersion);
+            this.pnl3.Controls.Add(this.rbMandatoryMode2);
+            this.pnl3.Controls.Add(this.rbMandatoryMode1);
+            this.pnl3.Controls.Add(this.rbMandatory);
+            this.pnl3.Controls.Add(this.rbOptionalUpdate);
+            this.pnl3.Controls.Add(this.label18);
+            this.pnl3.Location = new System.Drawing.Point(94, 3);
+            this.pnl3.Name = "pnl3";
+            this.pnl3.Size = new System.Drawing.Size(82, 49);
+            this.pnl3.TabIndex = 0;
             // 
-            // label10
+            // rbMandatoryMinimumVersion
             // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(47, 120);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(82, 16);
-            this.label10.TabIndex = 17;
-            this.label10.Text = "* Required";
+            this.rbMandatoryMinimumVersion.AutoSize = true;
+            this.rbMandatoryMinimumVersion.Location = new System.Drawing.Point(5, 123);
+            this.rbMandatoryMinimumVersion.Name = "rbMandatoryMinimumVersion";
+            this.rbMandatoryMinimumVersion.Size = new System.Drawing.Size(236, 43);
+            this.rbMandatoryMinimumVersion.TabIndex = 6;
+            this.rbMandatoryMinimumVersion.Text = "Mandatory Minimum Version.\r\n(Only start update if app is less than minmum \r\nversi" +
+    "on specified here)";
+            this.toolTip1.SetToolTip(this.rbMandatoryMinimumVersion, "Only start update if app is less than minmum version specified here");
+            this.rbMandatoryMinimumVersion.UseVisualStyleBackColor = true;
+            this.rbMandatoryMinimumVersion.CheckedChanged += new System.EventHandler(this.rbMandatoryMinimumVersion_CheckedChanged);
             // 
-            // label11
+            // rbMandatoryMode2
             // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(10, 148);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(42, 13);
-            this.label11.TabIndex = 16;
-            this.label11.Text = "Version";
+            this.rbMandatoryMode2.AutoSize = true;
+            this.rbMandatoryMode2.Location = new System.Drawing.Point(5, 90);
+            this.rbMandatoryMode2.Name = "rbMandatoryMode2";
+            this.rbMandatoryMode2.Size = new System.Drawing.Size(245, 30);
+            this.rbMandatoryMode2.TabIndex = 4;
+            this.rbMandatoryMode2.Text = "Madatory Mode 2 \r\n(Skip update form and download automatically)";
+            this.rbMandatoryMode2.UseVisualStyleBackColor = true;
+            this.rbMandatoryMode2.CheckedChanged += new System.EventHandler(this.rbMandatoryMode2_CheckedChanged);
             // 
-            // txtNewVersion
+            // rbMandatoryMode1
             // 
-            this.txtNewVersion.BackColor = System.Drawing.Color.White;
-            this.txtNewVersion.Location = new System.Drawing.Point(53, 145);
-            this.txtNewVersion.Name = "txtNewVersion";
-            this.txtNewVersion.Size = new System.Drawing.Size(65, 20);
-            this.txtNewVersion.TabIndex = 2;
-            this.txtNewVersion.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtNewVersion.TextChanged += new System.EventHandler(this.txtNewVersion_TextChanged);
-            this.txtNewVersion.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNewVersion_KeyPress);
+            this.rbMandatoryMode1.AutoSize = true;
+            this.rbMandatoryMode1.Location = new System.Drawing.Point(5, 70);
+            this.rbMandatoryMode1.Name = "rbMandatoryMode1";
+            this.rbMandatoryMode1.Size = new System.Drawing.Size(231, 17);
+            this.rbMandatoryMode1.TabIndex = 3;
+            this.rbMandatoryMode1.Text = "Madatory Mode 1 (No Close button on form)";
+            this.toolTip1.SetToolTip(this.rbMandatoryMode1, "Hide the Close button on update dialog.");
+            this.rbMandatoryMode1.UseVisualStyleBackColor = true;
+            this.rbMandatoryMode1.CheckedChanged += new System.EventHandler(this.rbMandatoryMode1_CheckedChanged);
             // 
-            // label4
+            // rbMandatory
             // 
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(10, 59);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(257, 48);
-            this.label4.TabIndex = 1;
-            this.label4.Text = "version (Required) : You need to provide latest version of the application betwee" +
-    "n version tags. Version should be in X.X.X.X format.";
+            this.rbMandatory.AutoSize = true;
+            this.rbMandatory.Location = new System.Drawing.Point(5, 50);
+            this.rbMandatory.Name = "rbMandatory";
+            this.rbMandatory.Size = new System.Drawing.Size(221, 17);
+            this.rbMandatory.TabIndex = 2;
+            this.rbMandatory.Text = "Mandatory. (All buttons displayed on form)";
+            this.toolTip1.SetToolTip(this.rbMandatory, "You can set this to true if you don\'t want user to skip this version. \r\nThis will" +
+        " ignore Remind Later and Skip options and hide both \r\nSkip and Remind Later butt" +
+        "on on update dialog.");
+            this.rbMandatory.UseVisualStyleBackColor = true;
+            this.rbMandatory.CheckedChanged += new System.EventHandler(this.rbMandatory_CheckedChanged);
             // 
-            // label3
+            // rbOptionalUpdate
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(1, 8);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(272, 30);
-            this.label3.TabIndex = 0;
-            this.label3.Text = "Use this wizard to create your xml file for \r\nAutoUpdater.net";
+            this.rbOptionalUpdate.Location = new System.Drawing.Point(5, 27);
+            this.rbOptionalUpdate.Name = "rbOptionalUpdate";
+            this.rbOptionalUpdate.Size = new System.Drawing.Size(250, 20);
+            this.rbOptionalUpdate.TabIndex = 1;
+            this.rbOptionalUpdate.Text = "Allow user to decide if they want to run update.";
+            this.rbOptionalUpdate.UseVisualStyleBackColor = true;
+            this.rbOptionalUpdate.CheckedChanged += new System.EventHandler(this.rbOptionalUpdate_CheckedChanged);
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.Location = new System.Drawing.Point(5, 6);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(190, 16);
+            this.label18.TabIndex = 0;
+            this.label18.Text = "Select Update Mode Type";
             // 
             // pnl4
             // 
@@ -558,6 +618,16 @@ namespace AutoUpdaterTest
             this.pnl4.Name = "pnl4";
             this.pnl4.Size = new System.Drawing.Size(54, 42);
             this.pnl4.TabIndex = 7;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::AutoUpdaterTest.Properties.Resources.Optional;
+            this.pictureBox3.Location = new System.Drawing.Point(232, 123);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(34, 25);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 19;
+            this.pictureBox3.TabStop = false;
             // 
             // btnCalculateChecksum
             // 
@@ -657,126 +727,19 @@ namespace AutoUpdaterTest
             this.label13.TabIndex = 0;
             this.label13.Text = "Checksum (Optional): You can provide the \r\nchecksum for the update file";
             // 
-            // pnl3
+            // pnlSetMinversion
             // 
-            this.pnl3.Controls.Add(this.rbMandatoryMinimumVersion);
-            this.pnl3.Controls.Add(this.rbMandatoryMode2);
-            this.pnl3.Controls.Add(this.rbMandatoryMode1);
-            this.pnl3.Controls.Add(this.rbMandatory);
-            this.pnl3.Controls.Add(this.rbOptionalUpdate);
-            this.pnl3.Controls.Add(this.label18);
-            this.pnl3.Location = new System.Drawing.Point(94, 3);
-            this.pnl3.Name = "pnl3";
-            this.pnl3.Size = new System.Drawing.Size(82, 49);
-            this.pnl3.TabIndex = 0;
-            // 
-            // rbMandatoryMinimumVersion
-            // 
-            this.rbMandatoryMinimumVersion.AutoSize = true;
-            this.rbMandatoryMinimumVersion.Location = new System.Drawing.Point(5, 123);
-            this.rbMandatoryMinimumVersion.Name = "rbMandatoryMinimumVersion";
-            this.rbMandatoryMinimumVersion.Size = new System.Drawing.Size(236, 43);
-            this.rbMandatoryMinimumVersion.TabIndex = 6;
-            this.rbMandatoryMinimumVersion.Text = "Mandatory Minimum Version.\r\n(Only start update if app is less than minmum \r\nversi" +
-    "on specified here)";
-            this.toolTip1.SetToolTip(this.rbMandatoryMinimumVersion, "Only start update if app is less than minmum version specified here");
-            this.rbMandatoryMinimumVersion.UseVisualStyleBackColor = true;
-            this.rbMandatoryMinimumVersion.CheckedChanged += new System.EventHandler(this.rbMandatoryMinimumVersion_CheckedChanged);
-            // 
-            // rbMandatoryMode2
-            // 
-            this.rbMandatoryMode2.AutoSize = true;
-            this.rbMandatoryMode2.Location = new System.Drawing.Point(5, 90);
-            this.rbMandatoryMode2.Name = "rbMandatoryMode2";
-            this.rbMandatoryMode2.Size = new System.Drawing.Size(245, 30);
-            this.rbMandatoryMode2.TabIndex = 4;
-            this.rbMandatoryMode2.Text = "Madatory Mode 2 \r\n(Skip update form and download automatically)";
-            this.rbMandatoryMode2.UseVisualStyleBackColor = true;
-            this.rbMandatoryMode2.CheckedChanged += new System.EventHandler(this.rbMandatoryMode2_CheckedChanged);
-            // 
-            // rbMandatoryMode1
-            // 
-            this.rbMandatoryMode1.AutoSize = true;
-            this.rbMandatoryMode1.Location = new System.Drawing.Point(5, 70);
-            this.rbMandatoryMode1.Name = "rbMandatoryMode1";
-            this.rbMandatoryMode1.Size = new System.Drawing.Size(231, 17);
-            this.rbMandatoryMode1.TabIndex = 3;
-            this.rbMandatoryMode1.Text = "Madatory Mode 1 (No Close button on form)";
-            this.toolTip1.SetToolTip(this.rbMandatoryMode1, "Hide the Close button on update dialog.");
-            this.rbMandatoryMode1.UseVisualStyleBackColor = true;
-            this.rbMandatoryMode1.CheckedChanged += new System.EventHandler(this.rbMandatoryMode1_CheckedChanged);
-            // 
-            // rbMandatory
-            // 
-            this.rbMandatory.AutoSize = true;
-            this.rbMandatory.Location = new System.Drawing.Point(5, 50);
-            this.rbMandatory.Name = "rbMandatory";
-            this.rbMandatory.Size = new System.Drawing.Size(221, 17);
-            this.rbMandatory.TabIndex = 2;
-            this.rbMandatory.Text = "Mandatory. (All buttons displayed on form)";
-            this.toolTip1.SetToolTip(this.rbMandatory, "You can set this to true if you don\'t want user to skip this version. \r\nThis will" +
-        " ignore Remind Later and Skip options and hide both \r\nSkip and Remind Later butt" +
-        "on on update dialog.");
-            this.rbMandatory.UseVisualStyleBackColor = true;
-            this.rbMandatory.CheckedChanged += new System.EventHandler(this.rbMandatory_CheckedChanged);
-            // 
-            // rbOptionalUpdate
-            // 
-            this.rbOptionalUpdate.Location = new System.Drawing.Point(5, 27);
-            this.rbOptionalUpdate.Name = "rbOptionalUpdate";
-            this.rbOptionalUpdate.Size = new System.Drawing.Size(250, 20);
-            this.rbOptionalUpdate.TabIndex = 1;
-            this.rbOptionalUpdate.Text = "Allow user to decide if they want to run update.";
-            this.rbOptionalUpdate.UseVisualStyleBackColor = true;
-            this.rbOptionalUpdate.CheckedChanged += new System.EventHandler(this.rbOptionalUpdate_CheckedChanged);
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(5, 6);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(190, 16);
-            this.label18.TabIndex = 0;
-            this.label18.Text = "Select Update Mode Type";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox1.Image = global::AutoUpdaterTest.Properties.Resources.AutoUpdateCloud;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 32);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(111, 114);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox1.TabIndex = 2;
-            this.pictureBox1.TabStop = false;
-            // 
-            // btnSelectFolder_Click
-            // 
-            this.btnSelectFolder_Click.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSelectFolder_Click.ImageIndex = 6;
-            this.btnSelectFolder_Click.ImageList = this.imageList1;
-            this.btnSelectFolder_Click.Location = new System.Drawing.Point(239, 75);
-            this.btnSelectFolder_Click.Name = "btnSelectFolder_Click";
-            this.btnSelectFolder_Click.Size = new System.Drawing.Size(32, 23);
-            this.btnSelectFolder_Click.TabIndex = 7;
-            this.toolTip1.SetToolTip(this.btnSelectFolder_Click, "Select the folder to save the XML file to.");
-            this.btnSelectFolder_Click.UseVisualStyleBackColor = true;
-            this.btnSelectFolder_Click.Click += new System.EventHandler(this.btnOpenXmlFolder_Click);
-            // 
-            // btnCreateXMLFile
-            // 
-            this.btnCreateXMLFile.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCreateXMLFile.ImageIndex = 5;
-            this.btnCreateXMLFile.ImageList = this.imageList1;
-            this.btnCreateXMLFile.Location = new System.Drawing.Point(72, 103);
-            this.btnCreateXMLFile.Name = "btnCreateXMLFile";
-            this.btnCreateXMLFile.Size = new System.Drawing.Size(133, 23);
-            this.btnCreateXMLFile.TabIndex = 5;
-            this.btnCreateXMLFile.Text = "  Create XML File";
-            this.toolTip1.SetToolTip(this.btnCreateXMLFile, "Creates the XML File");
-            this.btnCreateXMLFile.UseVisualStyleBackColor = true;
-            this.btnCreateXMLFile.Click += new System.EventHandler(this.btnCreateXMLFile_Click);
+            this.pnlSetMinversion.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pnlSetMinversion.Controls.Add(this.btnNextPrevVersion);
+            this.pnlSetMinversion.Controls.Add(this.txtMinVersion);
+            this.pnlSetMinversion.Controls.Add(this.btnPrevMinVersion);
+            this.pnlSetMinversion.Controls.Add(this.picMinVersion);
+            this.pnlSetMinversion.Controls.Add(this.label22);
+            this.pnlSetMinversion.Controls.Add(this.label21);
+            this.pnlSetMinversion.Location = new System.Drawing.Point(19, 56);
+            this.pnlSetMinversion.Name = "pnlSetMinversion";
+            this.pnlSetMinversion.Size = new System.Drawing.Size(67, 56);
+            this.pnlSetMinversion.TabIndex = 9;
             // 
             // btnNextPrevVersion
             // 
@@ -789,6 +752,15 @@ namespace AutoUpdaterTest
             this.btnNextPrevVersion.TabStop = false;
             this.btnNextPrevVersion.Visible = false;
             this.btnNextPrevVersion.Click += new System.EventHandler(this.btnNextPrevVersion_Click);
+            // 
+            // txtMinVersion
+            // 
+            this.txtMinVersion.Location = new System.Drawing.Point(8, 135);
+            this.txtMinVersion.Name = "txtMinVersion";
+            this.txtMinVersion.Size = new System.Drawing.Size(89, 20);
+            this.txtMinVersion.TabIndex = 23;
+            this.txtMinVersion.TextChanged += new System.EventHandler(this.txtMinVersion_TextChanged);
+            this.txtMinVersion.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtMinimunVersion_KeyPress);
             // 
             // btnPrevMinVersion
             // 
@@ -811,71 +783,37 @@ namespace AutoUpdaterTest
             this.picMinVersion.TabIndex = 18;
             this.picMinVersion.TabStop = false;
             // 
-            // picDownloadURL
+            // label22
             // 
-            this.picDownloadURL.Image = global::AutoUpdaterTest.Properties.Resources.RedX;
-            this.picDownloadURL.Location = new System.Drawing.Point(229, 134);
-            this.picDownloadURL.Name = "picDownloadURL";
-            this.picDownloadURL.Size = new System.Drawing.Size(34, 25);
-            this.picDownloadURL.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picDownloadURL.TabIndex = 18;
-            this.picDownloadURL.TabStop = false;
+            this.label22.AutoSize = true;
+            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.Location = new System.Drawing.Point(4, 116);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(135, 13);
+            this.label22.TabIndex = 20;
+            this.label22.Text = "Enter Minimum Version";
             // 
-            // picVersionStatus
+            // label21
             // 
-            this.picVersionStatus.Image = global::AutoUpdaterTest.Properties.Resources.RedX;
-            this.picVersionStatus.Location = new System.Drawing.Point(119, 143);
-            this.picVersionStatus.Name = "picVersionStatus";
-            this.picVersionStatus.Size = new System.Drawing.Size(34, 25);
-            this.picVersionStatus.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picVersionStatus.TabIndex = 15;
-            this.picVersionStatus.TabStop = false;
+            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.Location = new System.Drawing.Point(5, 5);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(265, 100);
+            this.label21.TabIndex = 19;
+            this.label21.Text = resources.GetString("label21.Text");
             // 
-            // pictureBox4
+            // pnl5
             // 
-            this.pictureBox4.Image = global::AutoUpdaterTest.Properties.Resources.Optional;
-            this.pictureBox4.Location = new System.Drawing.Point(233, 115);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(34, 25);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 18;
-            this.pictureBox4.TabStop = false;
-            this.toolTip1.SetToolTip(this.pictureBox4, "This is Optional.");
-            // 
-            // btnExit
-            // 
-            this.btnExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnExit.Image = global::AutoUpdaterTest.Properties.Resources.Exit;
-            this.btnExit.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnExit.Location = new System.Drawing.Point(314, 3);
-            this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(81, 38);
-            this.btnExit.TabIndex = 5;
-            this.btnExit.Text = "Exit";
-            this.btnExit.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnExit.UseVisualStyleBackColor = true;
-            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
-            // 
-            // btnBack
-            // 
-            this.btnBack.Image = global::AutoUpdaterTest.Properties.Resources.Previous;
-            this.btnBack.Location = new System.Drawing.Point(1, 3);
-            this.btnBack.Name = "btnBack";
-            this.btnBack.Size = new System.Drawing.Size(124, 39);
-            this.btnBack.TabIndex = 4;
-            this.btnBack.UseVisualStyleBackColor = true;
-            this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
-            // 
-            // btnNext
-            // 
-            this.btnNext.Enabled = false;
-            this.btnNext.Image = global::AutoUpdaterTest.Properties.Resources.Next1;
-            this.btnNext.Location = new System.Drawing.Point(134, 3);
-            this.btnNext.Name = "btnNext";
-            this.btnNext.Size = new System.Drawing.Size(124, 39);
-            this.btnNext.TabIndex = 3;
-            this.btnNext.UseVisualStyleBackColor = true;
-            this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
+            this.pnl5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pnl5.Controls.Add(this.pictureBox2);
+            this.pnl5.Controls.Add(this.label17);
+            this.pnl5.Controls.Add(this.txtCommandLineArgs);
+            this.pnl5.Controls.Add(this.label7);
+            this.pnl5.Controls.Add(this.label8);
+            this.pnl5.Location = new System.Drawing.Point(103, 67);
+            this.pnl5.Name = "pnl5";
+            this.pnl5.Size = new System.Drawing.Size(57, 48);
+            this.pnl5.TabIndex = 10;
             // 
             // pictureBox2
             // 
@@ -887,55 +825,134 @@ namespace AutoUpdaterTest
             this.pictureBox2.TabIndex = 27;
             this.pictureBox2.TabStop = false;
             // 
-            // pictureBox3
+            // label17
             // 
-            this.pictureBox3.Image = global::AutoUpdaterTest.Properties.Resources.Optional;
-            this.pictureBox3.Location = new System.Drawing.Point(232, 123);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(34, 25);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 19;
-            this.pictureBox3.TabStop = false;
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.Location = new System.Drawing.Point(24, 153);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(203, 16);
+            this.label17.TabIndex = 26;
+            this.label17.Text = "(Optional Click Next To Continue)";
             // 
-            // pnl6A
+            // txtCommandLineArgs
             // 
-            this.pnl6A.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pnl6A.Controls.Add(this.btnOpenXmlFolder);
-            this.pnl6A.Controls.Add(this.btnOpenXMLFile);
-            this.pnl6A.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnl6A.Enabled = false;
-            this.pnl6A.Location = new System.Drawing.Point(0, 133);
-            this.pnl6A.Name = "pnl6A";
-            this.pnl6A.Size = new System.Drawing.Size(275, 41);
-            this.pnl6A.TabIndex = 8;
+            this.txtCommandLineArgs.Location = new System.Drawing.Point(3, 126);
+            this.txtCommandLineArgs.Name = "txtCommandLineArgs";
+            this.txtCommandLineArgs.Size = new System.Drawing.Size(267, 20);
+            this.txtCommandLineArgs.TabIndex = 25;
+            this.txtCommandLineArgs.TextChanged += new System.EventHandler(this.txtCommandLineArgs_TextChanged_1);
             // 
-            // btnOpenXmlFolder
+            // label7
             // 
-            this.btnOpenXmlFolder.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnOpenXmlFolder.ImageIndex = 0;
-            this.btnOpenXmlFolder.ImageList = this.imageList1;
-            this.btnOpenXmlFolder.Location = new System.Drawing.Point(149, 7);
-            this.btnOpenXmlFolder.Name = "btnOpenXmlFolder";
-            this.btnOpenXmlFolder.Size = new System.Drawing.Size(117, 23);
-            this.btnOpenXmlFolder.TabIndex = 8;
-            this.btnOpenXmlFolder.Text = "      Open XMLFolder";
-            this.toolTip1.SetToolTip(this.btnOpenXmlFolder, "Opens the  XML file in file explorer.");
-            this.btnOpenXmlFolder.UseVisualStyleBackColor = true;
-            this.btnOpenXmlFolder.Click += new System.EventHandler(this.btnOpenXmlFolder_Click_1);
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(4, 105);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(115, 15);
+            this.label7.TabIndex = 24;
+            this.label7.Text = "Enter Optional Args:";
             // 
-            // btnOpenXMLFile
+            // label8
             // 
-            this.btnOpenXMLFile.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnOpenXMLFile.ImageIndex = 1;
-            this.btnOpenXMLFile.ImageList = this.imageList1;
-            this.btnOpenXMLFile.Location = new System.Drawing.Point(10, 7);
-            this.btnOpenXMLFile.Name = "btnOpenXMLFile";
-            this.btnOpenXMLFile.Size = new System.Drawing.Size(121, 23);
-            this.btnOpenXMLFile.TabIndex = 7;
-            this.btnOpenXMLFile.Text = "View XML File";
-            this.toolTip1.SetToolTip(this.btnOpenXMLFile, "Opens the  XML file in Browser");
-            this.btnOpenXMLFile.UseVisualStyleBackColor = true;
-            this.btnOpenXMLFile.Click += new System.EventHandler(this.btnOpenXMLFile_Click_1);
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(4, 19);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(268, 69);
+            this.label8.TabIndex = 23;
+            this.label8.Text = resources.GetString("label8.Text");
+            // 
+            // pnl1
+            // 
+            this.pnl1.BackColor = System.Drawing.Color.Orange;
+            this.pnl1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pnl1.Controls.Add(this.btnGetVersion);
+            this.pnl1.Controls.Add(this.label10);
+            this.pnl1.Controls.Add(this.label11);
+            this.pnl1.Controls.Add(this.picVersionStatus);
+            this.pnl1.Controls.Add(this.txtNewVersion);
+            this.pnl1.Controls.Add(this.label4);
+            this.pnl1.Controls.Add(this.label3);
+            this.pnl1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnl1.Location = new System.Drawing.Point(0, 0);
+            this.pnl1.Name = "pnl1";
+            this.pnl1.Size = new System.Drawing.Size(279, 178);
+            this.pnl1.TabIndex = 1;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(50, 124);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(82, 16);
+            this.label10.TabIndex = 17;
+            this.label10.Text = "* Required";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(10, 148);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(42, 13);
+            this.label11.TabIndex = 16;
+            this.label11.Text = "Version";
+            // 
+            // picVersionStatus
+            // 
+            this.picVersionStatus.Image = global::AutoUpdaterTest.Properties.Resources.RedX;
+            this.picVersionStatus.Location = new System.Drawing.Point(119, 143);
+            this.picVersionStatus.Name = "picVersionStatus";
+            this.picVersionStatus.Size = new System.Drawing.Size(34, 25);
+            this.picVersionStatus.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picVersionStatus.TabIndex = 15;
+            this.picVersionStatus.TabStop = false;
+            // 
+            // txtNewVersion
+            // 
+            this.txtNewVersion.BackColor = System.Drawing.Color.White;
+            this.txtNewVersion.Location = new System.Drawing.Point(53, 145);
+            this.txtNewVersion.Name = "txtNewVersion";
+            this.txtNewVersion.Size = new System.Drawing.Size(65, 20);
+            this.txtNewVersion.TabIndex = 2;
+            this.txtNewVersion.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtNewVersion.TextChanged += new System.EventHandler(this.txtNewVersion_TextChanged);
+            this.txtNewVersion.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNewVersion_KeyPress);
+            // 
+            // label4
+            // 
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(10, 59);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(257, 48);
+            this.label4.TabIndex = 1;
+            this.label4.Text = "version (Required) : You need to provide latest version of the application betwee" +
+    "n version tags. Version should be in X.X.X.X format.";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(1, 8);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(272, 30);
+            this.label3.TabIndex = 0;
+            this.label3.Text = "Use this wizard to create your xml file for \r\nAutoUpdater.net";
+            // 
+            // btnGetVersion
+            // 
+            this.btnGetVersion.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnGetVersion.ImageIndex = 4;
+            this.btnGetVersion.ImageList = this.imageList1;
+            this.btnGetVersion.Location = new System.Drawing.Point(159, 143);
+            this.btnGetVersion.Name = "btnGetVersion";
+            this.btnGetVersion.Size = new System.Drawing.Size(97, 23);
+            this.btnGetVersion.TabIndex = 18;
+            this.btnGetVersion.Text = "       Find Version";
+            this.toolTip1.SetToolTip(this.btnGetVersion, "Clicking here will get the new version automatically.\r\nSelect the setup exe file " +
+        "to load version");
+            this.btnGetVersion.UseVisualStyleBackColor = true;
+            this.btnGetVersion.Click += new System.EventHandler(this.btnGetVersion_Click);
             // 
             // frmCreateXml
             // 
@@ -955,36 +972,36 @@ namespace AutoUpdaterTest
             this.panel1.PerformLayout();
             this.pnlChangelog.ResumeLayout(false);
             this.pnlChangelog.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.splitContainer1.Panel1.ResumeLayout(false);
             this.splitContainer1.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
             this.splitContainer1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.pnl6.ResumeLayout(false);
             this.pnl6.PerformLayout();
-            this.pnlSetMinversion.ResumeLayout(false);
-            this.pnlSetMinversion.PerformLayout();
-            this.pnl5.ResumeLayout(false);
-            this.pnl5.PerformLayout();
+            this.pnl6A.ResumeLayout(false);
             this.pnl2.ResumeLayout(false);
             this.pnl2.PerformLayout();
-            this.pnl1.ResumeLayout(false);
-            this.pnl1.PerformLayout();
-            this.pnl4.ResumeLayout(false);
-            this.pnl4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picDownloadURL)).EndInit();
             this.pnl3.ResumeLayout(false);
             this.pnl3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.pnl4.ResumeLayout(false);
+            this.pnl4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            this.pnlSetMinversion.ResumeLayout(false);
+            this.pnlSetMinversion.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnNextPrevVersion)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnPrevMinVersion)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picMinVersion)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picDownloadURL)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picVersionStatus)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            this.pnl5.ResumeLayout(false);
+            this.pnl5.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            this.pnl6A.ResumeLayout(false);
+            this.pnl1.ResumeLayout(false);
+            this.pnl1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picVersionStatus)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1064,5 +1081,6 @@ namespace AutoUpdaterTest
         private System.Windows.Forms.Panel pnl6A;
         private System.Windows.Forms.Button btnOpenXmlFolder;
         private System.Windows.Forms.Button btnOpenXMLFile;
+        private System.Windows.Forms.Button btnGetVersion;
     }
 }
