@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Text;
@@ -84,9 +85,25 @@ namespace AutoUpdaterTest
                     xMLitems.version = string.Empty;
                     btnNext.Enabled = false;
                 }
-                   
             }
         }
+
+        private void btnGetVersion_Click(object sender, EventArgs e)
+        {
+            // Browse for setup file to get checksum
+            OpenFileDialog ofd = new OpenFileDialog();
+            ofd.Filter = "EXE files (*.exe)|*.exe|All files (*.*)|*.*";
+            ofd.DefaultExt = "exe";
+            ofd.InitialDirectory = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
+            ofd.ShowDialog();
+
+            if (ofd.FileName != string.Empty)
+            {
+                var versInfo = FileVersionInfo.GetVersionInfo(ofd.FileName);
+                txtNewVersion.Text = versInfo.FileVersion.Trim(); ;
+            }
+        }
+
         #endregion
         #region panl 2 Controls
 
@@ -139,6 +156,7 @@ namespace AutoUpdaterTest
 
             if (rbOptionalUpdate.Checked)
             {
+                ShowMinVersionPanel(false);
                 pnlChangelog.Visible = true;
                 pnlChangelog.Dock = DockStyle.Fill;
                 pnlChangelog.BringToFront();
@@ -159,6 +177,7 @@ namespace AutoUpdaterTest
 
             if (rbMandatory.Checked)
             {
+                ShowMinVersionPanel(true);
                 xMLitems.MandatoryType = AutoUpdateXMLitems.MandatoryTypes.Mandatory;
                 xMLitems.mandatory = true;
             }
@@ -171,9 +190,7 @@ namespace AutoUpdaterTest
 
             if (rbMandatoryMinimumVersion.Checked)
             {
-                pnlSetMinversion.Visible = true;
-                pnlSetMinversion.Dock = DockStyle.Fill;
-                pnlSetMinversion.BringToFront();
+                ShowMinVersionPanel(true);
                 rbMandatoryMinimumVersion.Checked = false;
                 xMLitems.MandatoryType = AutoUpdateXMLitems.MandatoryTypes.MandatoryMinVersion;
             }
@@ -190,6 +207,7 @@ namespace AutoUpdaterTest
 
             if (rbMandatoryMode2.Checked)
             {
+                ShowMinVersionPanel(true);
                 xMLitems.MandatoryType = AutoUpdateXMLitems.MandatoryTypes.MandatoryOption2;
                 xMLitems.mandatoryOption2 = true;
             }
@@ -202,8 +220,20 @@ namespace AutoUpdaterTest
 
             if (rbMandatoryMode1.Checked)
             {
+                ShowMinVersionPanel(true);
                 xMLitems.MandatoryType = AutoUpdateXMLitems.MandatoryTypes.MandatoryOption1;
                 xMLitems.mandatoryOption1 = true;
+            }
+        }
+
+        private void ShowMinVersionPanel(Boolean isVisible)
+        {
+            pnlSetMinversion.Visible = isVisible;
+
+            if (isVisible)
+            {
+                pnlSetMinversion.Dock = DockStyle.Fill;
+                pnlSetMinversion.BringToFront();
             }
         }
 
@@ -255,12 +285,14 @@ namespace AutoUpdaterTest
         {
             // Browse for setup file to get checksum
             OpenFileDialog ofd = new OpenFileDialog();
+            ofd.Filter = "EXE files (*.exe)|*.exe|All files (*.*)|*.*";
+            ofd.DefaultExt = "exe";
+            ofd.InitialDirectory = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
             ofd.ShowDialog();
 
             if (ofd.FileName != string.Empty)
             {
                 txtDownloadableFile.Text = ofd.FileName;
-                Process.Start(ofd.FileName);
             }
         }
 

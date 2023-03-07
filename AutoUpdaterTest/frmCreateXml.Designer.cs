@@ -104,6 +104,7 @@ namespace AutoUpdaterTest
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.btnGetVersion = new System.Windows.Forms.Button();
             this.statusStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.pnlChangelog.SuspendLayout();
@@ -263,14 +264,14 @@ namespace AutoUpdaterTest
             // 
             // splitContainer1.Panel2
             // 
+            this.splitContainer1.Panel2.Controls.Add(this.pnl4);
+            this.splitContainer1.Panel2.Controls.Add(this.pnl1);
+            this.splitContainer1.Panel2.Controls.Add(this.pnl3);
+            this.splitContainer1.Panel2.Controls.Add(this.pnlSetMinversion);
             this.splitContainer1.Panel2.Controls.Add(this.pnl6);
             this.splitContainer1.Panel2.Controls.Add(this.pnl2);
-            this.splitContainer1.Panel2.Controls.Add(this.pnl3);
-            this.splitContainer1.Panel2.Controls.Add(this.pnl4);
-            this.splitContainer1.Panel2.Controls.Add(this.pnlSetMinversion);
             this.splitContainer1.Panel2.Controls.Add(this.pnl5);
             this.splitContainer1.Panel2.Controls.Add(this.pnlChangelog);
-            this.splitContainer1.Panel2.Controls.Add(this.pnl1);
             this.splitContainer1.Size = new System.Drawing.Size(394, 178);
             this.splitContainer1.SplitterDistance = 111;
             this.splitContainer1.TabIndex = 2;
@@ -338,10 +339,9 @@ namespace AutoUpdaterTest
             this.pnl6.Controls.Add(this.label15);
             this.pnl6.Controls.Add(this.txtXmlFilename);
             this.pnl6.Controls.Add(this.label9);
-            this.pnl6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnl6.Location = new System.Drawing.Point(0, 0);
+            this.pnl6.Location = new System.Drawing.Point(213, 111);
             this.pnl6.Name = "pnl6";
-            this.pnl6.Size = new System.Drawing.Size(279, 178);
+            this.pnl6.Size = new System.Drawing.Size(66, 67);
             this.pnl6.TabIndex = 8;
             // 
             // pnl6A
@@ -351,9 +351,9 @@ namespace AutoUpdaterTest
             this.pnl6A.Controls.Add(this.btnOpenXMLFile);
             this.pnl6A.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.pnl6A.Enabled = false;
-            this.pnl6A.Location = new System.Drawing.Point(0, 133);
+            this.pnl6A.Location = new System.Drawing.Point(0, 22);
             this.pnl6A.Name = "pnl6A";
-            this.pnl6A.Size = new System.Drawing.Size(275, 41);
+            this.pnl6A.Size = new System.Drawing.Size(62, 41);
             this.pnl6A.TabIndex = 8;
             // 
             // btnOpenXmlFolder
@@ -382,6 +382,7 @@ namespace AutoUpdaterTest
             this.imageList1.Images.SetKeyName(5, "xmlWrite.png");
             this.imageList1.Images.SetKeyName(6, "Folder1.png");
             this.imageList1.Images.SetKeyName(7, "dial_knob.png");
+            this.imageList1.Images.SetKeyName(8, "AR.png");
             // 
             // btnOpenXMLFile
             // 
@@ -525,7 +526,7 @@ namespace AutoUpdaterTest
             this.pnl3.Controls.Add(this.rbMandatory);
             this.pnl3.Controls.Add(this.rbOptionalUpdate);
             this.pnl3.Controls.Add(this.label18);
-            this.pnl3.Location = new System.Drawing.Point(94, 3);
+            this.pnl3.Location = new System.Drawing.Point(92, 3);
             this.pnl3.Name = "pnl3";
             this.pnl3.Size = new System.Drawing.Size(82, 49);
             this.pnl3.TabIndex = 0;
@@ -614,9 +615,10 @@ namespace AutoUpdaterTest
             this.pnl4.Controls.Add(this.txtCheckSum);
             this.pnl4.Controls.Add(this.label12);
             this.pnl4.Controls.Add(this.label13);
-            this.pnl4.Location = new System.Drawing.Point(204, 5);
+            this.pnl4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnl4.Location = new System.Drawing.Point(0, 0);
             this.pnl4.Name = "pnl4";
-            this.pnl4.Size = new System.Drawing.Size(54, 42);
+            this.pnl4.Size = new System.Drawing.Size(279, 178);
             this.pnl4.TabIndex = 7;
             // 
             // pictureBox3
@@ -866,6 +868,7 @@ namespace AutoUpdaterTest
             // 
             this.pnl1.BackColor = System.Drawing.Color.Orange;
             this.pnl1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pnl1.Controls.Add(this.btnGetVersion);
             this.pnl1.Controls.Add(this.label10);
             this.pnl1.Controls.Add(this.label11);
             this.pnl1.Controls.Add(this.picVersionStatus);
@@ -936,6 +939,19 @@ namespace AutoUpdaterTest
             this.label3.Size = new System.Drawing.Size(272, 30);
             this.label3.TabIndex = 0;
             this.label3.Text = "Use this wizard to create your xml file for \r\nAutoUpdater.net";
+            // 
+            // btnGetVersion
+            // 
+            this.btnGetVersion.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnGetVersion.ImageIndex = 8;
+            this.btnGetVersion.ImageList = this.imageList1;
+            this.btnGetVersion.Location = new System.Drawing.Point(169, 143);
+            this.btnGetVersion.Name = "btnGetVersion";
+            this.btnGetVersion.Size = new System.Drawing.Size(98, 23);
+            this.btnGetVersion.TabIndex = 18;
+            this.btnGetVersion.Text = "      Get Version";
+            this.btnGetVersion.UseVisualStyleBackColor = true;
+            this.btnGetVersion.Click += new System.EventHandler(this.btnGetVersion_Click);
             // 
             // frmCreateXml
             // 
@@ -1065,5 +1081,6 @@ namespace AutoUpdaterTest
         private System.Windows.Forms.Panel pnl6A;
         private System.Windows.Forms.Button btnOpenXmlFolder;
         private System.Windows.Forms.Button btnOpenXMLFile;
+        private System.Windows.Forms.Button btnGetVersion;
     }
 }
