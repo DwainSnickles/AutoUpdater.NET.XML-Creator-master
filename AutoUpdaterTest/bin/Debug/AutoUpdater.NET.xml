@@ -4,82 +4,6 @@
         <name>AutoUpdater.NET</name>
     </assembly>
     <members>
-        <member name="T:AutoUpdaterDotNET.AutoUpdate">
-            <summary>
-            AutoUpdate Component Class
-            </summary>
-        </member>
-        <member name="M:AutoUpdaterDotNET.AutoUpdate.#ctor">
-            <summary>
-            Component class Initialize 
-            </summary>
-        </member>
-        <member name="E:AutoUpdaterDotNET.AutoUpdate.PropertyChanged">
-            <summary>
-            event to run when property changes
-            </summary>
-        </member>
-        <member name="M:AutoUpdaterDotNET.AutoUpdate.#ctor(System.ComponentModel.IContainer)">
-            <summary>
-            Component Class Container
-            </summary>
-            <param name="container"></param>
-        </member>
-        <member name="P:AutoUpdaterDotNET.AutoUpdate.RunStartWizard">
-            <summary>
-            Run the wizard on start up and user controlled if needed by changing the drop down to true
-            </summary>
-            
-        </member>
-        <member name="P:AutoUpdaterDotNET.AutoUpdate.XMLLocalPath">
-            <summary>
-            Sets the path to XML file to be used n website.
-            eg - @C:\\Somedir
-            </summary>
-        </member>
-        <member name="P:AutoUpdaterDotNET.AutoUpdate.XMLPath">
-            <summary>
-            Sets the path to Local XML file to be used n website.
-            eg - https://pathtoserver/update.xml
-            </summary>
-        </member>
-        <member name="P:AutoUpdaterDotNET.AutoUpdate.ChangeLogURL">
-            <summary>
-            Sets the path for change log on website
-            </summary>
-        </member>
-        <member name="P:AutoUpdaterDotNET.AutoUpdate.UpdateVersion">
-            <summary>
-            Sets the version of the update must be formated like 0.0.0.0
-            </summary>
-        </member>
-        <member name="P:AutoUpdaterDotNET.AutoUpdate.InstalledVersion">
-            <summary>
-            Sets the installed version of the update must be formated like 0.0.0.0
-            </summary>
-        </member>
-        <member name="M:AutoUpdaterDotNET.AutoUpdate.RunWizard">
-            <summary>
-            runs the wizard form to update properties
-            </summary>
-        </member>
-        <member name="F:AutoUpdaterDotNET.AutoUpdate.components">
-            <summary>
-            Required designer variable.
-            </summary>
-        </member>
-        <member name="M:AutoUpdaterDotNET.AutoUpdate.Dispose(System.Boolean)">
-            <summary> 
-            Clean up any resources being used.
-            </summary>
-            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
-        </member>
-        <member name="M:AutoUpdaterDotNET.AutoUpdate.InitializeComponent">
-            <summary>
-            Required method for Designer support - do not modify
-            the contents of this method with the code editor.
-            </summary>
-        </member>
         <member name="T:AutoUpdaterDotNET.RemindLaterFormat">
             <summary>
                 Enum representing the remind later time span.
@@ -153,16 +77,17 @@
                 Start checking for new version of application and display dialog to the user if update is available.
             </summary>
         </member>
-        <member name="M:AutoUpdaterDotNET.AutoUpdater.StartWizard">
-            <summary>
-            
-            </summary>
-        </member>
         <member name="M:AutoUpdaterDotNET.AutoUpdater.Start(System.String)">
             <summary>
                 Start checking for new version of application and display dialog to the user if update is available.
             </summary>
             <param name="appCast">URL of the xml file that contains information about latest version of the application.</param>
+        </member>
+        <member name="M:AutoUpdaterDotNET.AutoUpdater.ShowUpdateForm(AutoUpdaterDotNET.UpdateInfoEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
         </member>
         <member name="M:AutoUpdaterDotNET.AutoUpdater.DownloadUpdate">
             <summary>
@@ -201,7 +126,7 @@
         </member>
         <member name="P:AutoUpdaterDotNET.UpdateInfoEventArgs.Mandatory">
             <summary>
-            if its not mandandory show Update form instead of update available
+            
             </summary>
         </member>
         <member name="F:AutoUpdaterDotNET.DownloadUpdateDialog.components">
@@ -221,6 +146,40 @@
             the contents of this method with the code editor.
             </summary>
         </member>
+        <member name="F:AutoUpdaterDotNET.RemindLaterForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoUpdaterDotNET.RemindLaterForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoUpdaterDotNET.RemindLaterForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoUpdaterDotNET.UpdateForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoUpdaterDotNET.UpdateForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoUpdaterDotNET.UpdateForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
         <member name="T:AutoUpdaterDotNET.Properties.Resources">
             <summary>
               A strongly-typed resource class, for looking up localized strings, etc.
@@ -235,11 +194,6 @@
             <summary>
               Overrides the current thread's CurrentUICulture property for all
               resource lookups using this strongly typed resource class.
-            </summary>
-        </member>
-        <member name="P:AutoUpdaterDotNET.Properties.Resources.AutoUpdateCloud">
-            <summary>
-              Looks up a localized resource of type System.Drawing.Bitmap.
             </summary>
         </member>
         <member name="P:AutoUpdaterDotNET.Properties.Resources.clock_go">
@@ -272,145 +226,10 @@
               Looks up a localized resource of type System.Drawing.Bitmap.
             </summary>
         </member>
-        <member name="P:AutoUpdaterDotNET.Properties.Resources.Next">
-            <summary>
-              Looks up a localized resource of type System.Drawing.Bitmap.
-            </summary>
-        </member>
-        <member name="P:AutoUpdaterDotNET.Properties.Resources.Next1">
-            <summary>
-              Looks up a localized resource of type System.Drawing.Bitmap.
-            </summary>
-        </member>
-        <member name="P:AutoUpdaterDotNET.Properties.Resources.NextButton">
-            <summary>
-              Looks up a localized resource of type System.Drawing.Bitmap.
-            </summary>
-        </member>
-        <member name="P:AutoUpdaterDotNET.Properties.Resources.Previous">
-            <summary>
-              Looks up a localized resource of type System.Drawing.Bitmap.
-            </summary>
-        </member>
         <member name="P:AutoUpdaterDotNET.Properties.Resources.update">
             <summary>
               Looks up a localized resource of type System.Drawing.Bitmap.
             </summary>
-        </member>
-        <member name="F:AutoUpdaterDotNET.RemindLaterForm.components">
-            <summary>
-            Required designer variable.
-            </summary>
-        </member>
-        <member name="M:AutoUpdaterDotNET.RemindLaterForm.Dispose(System.Boolean)">
-            <summary>
-            Clean up any resources being used.
-            </summary>
-            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
-        </member>
-        <member name="M:AutoUpdaterDotNET.RemindLaterForm.InitializeComponent">
-            <summary>
-            Required method for Designer support - do not modify
-            the contents of this method with the code editor.
-            </summary>
-        </member>
-        <member name="T:AutoUpdaterDotNET.UpdateForm">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="M:AutoUpdaterDotNET.UpdateForm.#ctor(System.Boolean)">
-            <summary>
-            
-            </summary>
-            <param name="remindLater"></param>
-        </member>
-        <member name="M:AutoUpdaterDotNET.UpdateForm.ShowUpdateForm(AutoUpdaterDotNET.UpdateInfoEventArgs)">
-            <summary>
-            
-            </summary>
-            <param name="args"></param>
-        </member>
-        <member name="P:AutoUpdaterDotNET.UpdateForm.Text">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="M:AutoUpdaterDotNET.UpdateForm.SetTimer(System.DateTime)">
-            <summary>
-            
-            </summary>
-            <param name="remindLater"></param>
-        </member>
-        <member name="F:AutoUpdaterDotNET.UpdateForm.components">
-            <summary>
-            Required designer variable.
-            </summary>
-        </member>
-        <member name="M:AutoUpdaterDotNET.UpdateForm.Dispose(System.Boolean)">
-            <summary>
-            Clean up any resources being used.
-            </summary>
-            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
-        </member>
-        <member name="M:AutoUpdaterDotNET.UpdateForm.InitializeComponent">
-            <summary>
-            Required method for Designer support - do not modify
-            the contents of this method with the code editor.
-            </summary>
-        </member>
-        <member name="T:AutoUpdaterDotNET.Wizard.frmWizard">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="M:AutoUpdaterDotNET.Wizard.frmWizard.#ctor">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="P:AutoUpdaterDotNET.Wizard.frmWizard.Page">
-            <summary>
-            Keeps track of current page
-            </summary>
-        </member>
-        <member name="F:AutoUpdaterDotNET.Wizard.frmWizard.components">
-            <summary>
-            Required designer variable.
-            </summary>
-        </member>
-        <member name="M:AutoUpdaterDotNET.Wizard.frmWizard.Dispose(System.Boolean)">
-            <summary>
-            Clean up any resources being used.
-            </summary>
-            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
-        </member>
-        <member name="M:AutoUpdaterDotNET.Wizard.frmWizard.InitializeComponent">
-            <summary>
-            Required method for Designer support - do not modify
-            the contents of this method with the code editor.
-            </summary>
-        </member>
-        <member name="T:Combobox">
-            <summary>
-            Adds a combobox to propgrid with values
-            </summary>
-        </member>
-        <member name="T:PropertyChangedBase">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="E:PropertyChangedBase.PropertyChanged">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="M:PropertyChangedBase.OnPropertyChanged(System.String)">
-            <summary>
-            
-            </summary>
-            <param name="propertyName"></param>
         </member>
     </members>
 </doc>

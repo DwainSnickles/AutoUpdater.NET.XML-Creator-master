@@ -85,6 +85,7 @@ namespace AutoUpdaterTest
                     xMLitems.version = string.Empty;
                     btnNext.Enabled = false;
                 }
+                   
             }
         }
 
@@ -156,7 +157,6 @@ namespace AutoUpdaterTest
 
             if (rbOptionalUpdate.Checked)
             {
-                ShowMinVersionPanel(false);
                 pnlChangelog.Visible = true;
                 pnlChangelog.Dock = DockStyle.Fill;
                 pnlChangelog.BringToFront();
@@ -177,7 +177,6 @@ namespace AutoUpdaterTest
 
             if (rbMandatory.Checked)
             {
-                ShowMinVersionPanel(true);
                 xMLitems.MandatoryType = AutoUpdateXMLitems.MandatoryTypes.Mandatory;
                 xMLitems.mandatory = true;
             }
@@ -190,7 +189,9 @@ namespace AutoUpdaterTest
 
             if (rbMandatoryMinimumVersion.Checked)
             {
-                ShowMinVersionPanel(true);
+                pnlSetMinversion.Visible = true;
+                pnlSetMinversion.Dock = DockStyle.Fill;
+                pnlSetMinversion.BringToFront();
                 rbMandatoryMinimumVersion.Checked = false;
                 xMLitems.MandatoryType = AutoUpdateXMLitems.MandatoryTypes.MandatoryMinVersion;
             }
@@ -207,7 +208,6 @@ namespace AutoUpdaterTest
 
             if (rbMandatoryMode2.Checked)
             {
-                ShowMinVersionPanel(true);
                 xMLitems.MandatoryType = AutoUpdateXMLitems.MandatoryTypes.MandatoryOption2;
                 xMLitems.mandatoryOption2 = true;
             }
@@ -220,20 +220,8 @@ namespace AutoUpdaterTest
 
             if (rbMandatoryMode1.Checked)
             {
-                ShowMinVersionPanel(true);
                 xMLitems.MandatoryType = AutoUpdateXMLitems.MandatoryTypes.MandatoryOption1;
                 xMLitems.mandatoryOption1 = true;
-            }
-        }
-
-        private void ShowMinVersionPanel(Boolean isVisible)
-        {
-            pnlSetMinversion.Visible = isVisible;
-
-            if (isVisible)
-            {
-                pnlSetMinversion.Dock = DockStyle.Fill;
-                pnlSetMinversion.BringToFront();
             }
         }
 
@@ -356,11 +344,7 @@ namespace AutoUpdaterTest
 
             if (txtSaveToFolder.Text != string.Empty)
             {
-                if (!txtSaveToFolder.Text.EndsWith("\\"))
-                {
-                    txtSaveToFolder.Text += "\\";
-                }
-                xMLitems.xmlFolderPath = txtSaveToFolder.Text;
+                xMLitems.xmlFolderPath = txtSaveToFolder.Text + "\\";
             }
         }
 
@@ -388,7 +372,6 @@ namespace AutoUpdaterTest
             if (xMLitems.xmlFolderPath != string.Empty)
             {
                 Process.Start(xMLitems.xmlFolderPath);
-
             }
         }
 
@@ -700,10 +683,6 @@ namespace AutoUpdaterTest
                 }
 
                 pnl6A.Enabled = true;
-                if (!xMLitems.xmlFolderPath.EndsWith("\\"))
-                {
-                    xMLitems.xmlFolderPath += "\\";
-                }
                 xmlDoc.Save(xMLitems.xmlFolderPath + xMLitems.xmlFileName);
 
                 frmXmlCompleted frm = new frmXmlCompleted();
