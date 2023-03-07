@@ -48,10 +48,43 @@ namespace AutoUpdaterTest
             this.label2 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
+            this.pnl4 = new System.Windows.Forms.Panel();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.btnCalculateChecksum = new System.Windows.Forms.Button();
+            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
+            this.cmbCheckSum = new System.Windows.Forms.ComboBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.txtDownloadableFile = new System.Windows.Forms.TextBox();
+            this.btnBrowseExeFile = new System.Windows.Forms.Button();
+            this.label14 = new System.Windows.Forms.Label();
+            this.txtCheckSum = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.pnl1 = new System.Windows.Forms.Panel();
+            this.btnGetVersion = new System.Windows.Forms.Button();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.picVersionStatus = new System.Windows.Forms.PictureBox();
+            this.txtNewVersion = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.pnl3 = new System.Windows.Forms.Panel();
+            this.rbMandatoryMinimumVersion = new System.Windows.Forms.RadioButton();
+            this.rbMandatoryMode2 = new System.Windows.Forms.RadioButton();
+            this.rbMandatoryMode1 = new System.Windows.Forms.RadioButton();
+            this.rbMandatory = new System.Windows.Forms.RadioButton();
+            this.rbOptionalUpdate = new System.Windows.Forms.RadioButton();
+            this.label18 = new System.Windows.Forms.Label();
+            this.pnlSetMinversion = new System.Windows.Forms.Panel();
+            this.btnNextPrevVersion = new System.Windows.Forms.PictureBox();
+            this.txtMinVersion = new System.Windows.Forms.TextBox();
+            this.btnPrevMinVersion = new System.Windows.Forms.PictureBox();
+            this.picMinVersion = new System.Windows.Forms.PictureBox();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
             this.pnl6 = new System.Windows.Forms.Panel();
             this.pnl6A = new System.Windows.Forms.Panel();
             this.btnOpenXmlFolder = new System.Windows.Forms.Button();
-            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.btnOpenXMLFile = new System.Windows.Forms.Button();
             this.btnSelectFolder_Click = new System.Windows.Forms.Button();
             this.btnCreateXMLFile = new System.Windows.Forms.Button();
@@ -65,46 +98,13 @@ namespace AutoUpdaterTest
             this.txtDownloadURL = new System.Windows.Forms.TextBox();
             this.picDownloadURL = new System.Windows.Forms.PictureBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.pnl3 = new System.Windows.Forms.Panel();
-            this.rbMandatoryMinimumVersion = new System.Windows.Forms.RadioButton();
-            this.rbMandatoryMode2 = new System.Windows.Forms.RadioButton();
-            this.rbMandatoryMode1 = new System.Windows.Forms.RadioButton();
-            this.rbMandatory = new System.Windows.Forms.RadioButton();
-            this.rbOptionalUpdate = new System.Windows.Forms.RadioButton();
-            this.label18 = new System.Windows.Forms.Label();
-            this.pnl4 = new System.Windows.Forms.Panel();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.btnCalculateChecksum = new System.Windows.Forms.Button();
-            this.cmbCheckSum = new System.Windows.Forms.ComboBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.txtDownloadableFile = new System.Windows.Forms.TextBox();
-            this.btnBrowseExeFile = new System.Windows.Forms.Button();
-            this.label14 = new System.Windows.Forms.Label();
-            this.txtCheckSum = new System.Windows.Forms.TextBox();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.pnlSetMinversion = new System.Windows.Forms.Panel();
-            this.btnNextPrevVersion = new System.Windows.Forms.PictureBox();
-            this.txtMinVersion = new System.Windows.Forms.TextBox();
-            this.btnPrevMinVersion = new System.Windows.Forms.PictureBox();
-            this.picMinVersion = new System.Windows.Forms.PictureBox();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
             this.pnl5 = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label17 = new System.Windows.Forms.Label();
             this.txtCommandLineArgs = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.pnl1 = new System.Windows.Forms.Panel();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.picVersionStatus = new System.Windows.Forms.PictureBox();
-            this.txtNewVersion = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
-            this.btnGetVersion = new System.Windows.Forms.Button();
             this.statusStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.pnlChangelog.SuspendLayout();
@@ -116,21 +116,21 @@ namespace AutoUpdaterTest
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
-            this.pnl6.SuspendLayout();
-            this.pnl6A.SuspendLayout();
-            this.pnl2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picDownloadURL)).BeginInit();
-            this.pnl3.SuspendLayout();
             this.pnl4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            this.pnl1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picVersionStatus)).BeginInit();
+            this.pnl3.SuspendLayout();
             this.pnlSetMinversion.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnNextPrevVersion)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnPrevMinVersion)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picMinVersion)).BeginInit();
+            this.pnl6.SuspendLayout();
+            this.pnl6A.SuspendLayout();
+            this.pnl2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picDownloadURL)).BeginInit();
             this.pnl5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            this.pnl1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picVersionStatus)).BeginInit();
             this.SuspendLayout();
             // 
             // statusStrip1
@@ -329,6 +329,395 @@ namespace AutoUpdaterTest
             this.label1.Text = "Xml Creator";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // pnl4
+            // 
+            this.pnl4.BackColor = System.Drawing.Color.Orange;
+            this.pnl4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pnl4.Controls.Add(this.pictureBox3);
+            this.pnl4.Controls.Add(this.btnCalculateChecksum);
+            this.pnl4.Controls.Add(this.cmbCheckSum);
+            this.pnl4.Controls.Add(this.label6);
+            this.pnl4.Controls.Add(this.txtDownloadableFile);
+            this.pnl4.Controls.Add(this.btnBrowseExeFile);
+            this.pnl4.Controls.Add(this.label14);
+            this.pnl4.Controls.Add(this.txtCheckSum);
+            this.pnl4.Controls.Add(this.label12);
+            this.pnl4.Controls.Add(this.label13);
+            this.pnl4.Location = new System.Drawing.Point(227, 12);
+            this.pnl4.Name = "pnl4";
+            this.pnl4.Size = new System.Drawing.Size(30, 85);
+            this.pnl4.TabIndex = 7;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(232, 123);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(34, 25);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 19;
+            this.pictureBox3.TabStop = false;
+            // 
+            // btnCalculateChecksum
+            // 
+            this.btnCalculateChecksum.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnCalculateChecksum.ImageIndex = 7;
+            this.btnCalculateChecksum.ImageList = this.imageList1;
+            this.btnCalculateChecksum.Location = new System.Drawing.Point(5, 104);
+            this.btnCalculateChecksum.Name = "btnCalculateChecksum";
+            this.btnCalculateChecksum.Size = new System.Drawing.Size(148, 23);
+            this.btnCalculateChecksum.TabIndex = 8;
+            this.btnCalculateChecksum.Text = "      Calculate Checksum";
+            this.btnCalculateChecksum.UseVisualStyleBackColor = true;
+            this.btnCalculateChecksum.Click += new System.EventHandler(this.btnCalculateChecksum_Click);
+            // 
+            // imageList1
+            // 
+            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
+            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList1.Images.SetKeyName(0, "xml.svg.png");
+            this.imageList1.Images.SetKeyName(1, "xml_featured.png");
+            this.imageList1.Images.SetKeyName(2, "xml_Folder.png");
+            this.imageList1.Images.SetKeyName(3, "xml1.png");
+            this.imageList1.Images.SetKeyName(4, "xmlRound.png");
+            this.imageList1.Images.SetKeyName(5, "xmlWrite.png");
+            this.imageList1.Images.SetKeyName(6, "Folder1.png");
+            this.imageList1.Images.SetKeyName(7, "dial_knob.png");
+            this.imageList1.Images.SetKeyName(8, "AR.png");
+            // 
+            // cmbCheckSum
+            // 
+            this.cmbCheckSum.FormattingEnabled = true;
+            this.cmbCheckSum.Items.AddRange(new object[] {
+            "None",
+            "MD5",
+            "SHA1",
+            "SHA256",
+            "SHA384",
+            "SHA512"});
+            this.cmbCheckSum.Location = new System.Drawing.Point(7, 39);
+            this.cmbCheckSum.Name = "cmbCheckSum";
+            this.cmbCheckSum.Size = new System.Drawing.Size(76, 21);
+            this.cmbCheckSum.TabIndex = 3;
+            this.cmbCheckSum.Text = "None";
+            this.cmbCheckSum.SelectedIndexChanged += new System.EventHandler(this.cmbCheckSum_SelectedIndexChanged);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(4, 62);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(232, 15);
+            this.label6.TabIndex = 7;
+            this.label6.Text = "Locate the file the end user will download";
+            // 
+            // txtDownloadableFile
+            // 
+            this.txtDownloadableFile.Location = new System.Drawing.Point(7, 80);
+            this.txtDownloadableFile.Name = "txtDownloadableFile";
+            this.txtDownloadableFile.Size = new System.Drawing.Size(226, 20);
+            this.txtDownloadableFile.TabIndex = 6;
+            this.toolTip1.SetToolTip(this.txtDownloadableFile, "Locate the file the end user will download.\r\n");
+            // 
+            // btnBrowseExeFile
+            // 
+            this.btnBrowseExeFile.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBrowseExeFile.ImageIndex = 6;
+            this.btnBrowseExeFile.ImageList = this.imageList1;
+            this.btnBrowseExeFile.Location = new System.Drawing.Point(234, 78);
+            this.btnBrowseExeFile.Name = "btnBrowseExeFile";
+            this.btnBrowseExeFile.Size = new System.Drawing.Size(28, 23);
+            this.btnBrowseExeFile.TabIndex = 5;
+            this.btnBrowseExeFile.UseVisualStyleBackColor = true;
+            this.btnBrowseExeFile.Click += new System.EventHandler(this.btnBrowseExeFile_Click);
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Location = new System.Drawing.Point(4, 132);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(191, 15);
+            this.label14.TabIndex = 4;
+            this.label14.Text = "Enter Checksum manually or click";
+            // 
+            // txtCheckSum
+            // 
+            this.txtCheckSum.Location = new System.Drawing.Point(5, 151);
+            this.txtCheckSum.Name = "txtCheckSum";
+            this.txtCheckSum.Size = new System.Drawing.Size(261, 20);
+            this.txtCheckSum.TabIndex = 2;
+            this.txtCheckSum.TextChanged += new System.EventHandler(this.txtCheckSum_TextChanged);
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(89, 42);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(148, 15);
+            this.label12.TabIndex = 1;
+            this.label12.Text = "Select the checksum type.";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(4, 3);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(238, 30);
+            this.label13.TabIndex = 0;
+            this.label13.Text = "Checksum (Optional): You can provide the \r\nchecksum for the update file";
+            // 
+            // pnl1
+            // 
+            this.pnl1.BackColor = System.Drawing.Color.Orange;
+            this.pnl1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pnl1.Controls.Add(this.btnGetVersion);
+            this.pnl1.Controls.Add(this.label10);
+            this.pnl1.Controls.Add(this.label11);
+            this.pnl1.Controls.Add(this.picVersionStatus);
+            this.pnl1.Controls.Add(this.txtNewVersion);
+            this.pnl1.Controls.Add(this.label4);
+            this.pnl1.Controls.Add(this.label3);
+            this.pnl1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnl1.Location = new System.Drawing.Point(0, 0);
+            this.pnl1.Name = "pnl1";
+            this.pnl1.Size = new System.Drawing.Size(279, 178);
+            this.pnl1.TabIndex = 1;
+            // 
+            // btnGetVersion
+            // 
+            this.btnGetVersion.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnGetVersion.ImageIndex = 8;
+            this.btnGetVersion.ImageList = this.imageList1;
+            this.btnGetVersion.Location = new System.Drawing.Point(169, 143);
+            this.btnGetVersion.Name = "btnGetVersion";
+            this.btnGetVersion.Size = new System.Drawing.Size(98, 23);
+            this.btnGetVersion.TabIndex = 18;
+            this.btnGetVersion.Text = "      Get Version";
+            this.btnGetVersion.UseVisualStyleBackColor = true;
+            this.btnGetVersion.Click += new System.EventHandler(this.btnGetVersion_Click);
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(47, 120);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(82, 16);
+            this.label10.TabIndex = 17;
+            this.label10.Text = "* Required";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(10, 148);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(42, 13);
+            this.label11.TabIndex = 16;
+            this.label11.Text = "Version";
+            // 
+            // picVersionStatus
+            // 
+            this.picVersionStatus.Image = ((System.Drawing.Image)(resources.GetObject("picVersionStatus.Image")));
+            this.picVersionStatus.Location = new System.Drawing.Point(119, 143);
+            this.picVersionStatus.Name = "picVersionStatus";
+            this.picVersionStatus.Size = new System.Drawing.Size(34, 25);
+            this.picVersionStatus.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picVersionStatus.TabIndex = 15;
+            this.picVersionStatus.TabStop = false;
+            // 
+            // txtNewVersion
+            // 
+            this.txtNewVersion.BackColor = System.Drawing.Color.White;
+            this.txtNewVersion.Location = new System.Drawing.Point(53, 145);
+            this.txtNewVersion.Name = "txtNewVersion";
+            this.txtNewVersion.Size = new System.Drawing.Size(65, 20);
+            this.txtNewVersion.TabIndex = 2;
+            this.txtNewVersion.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtNewVersion.TextChanged += new System.EventHandler(this.txtNewVersion_TextChanged);
+            this.txtNewVersion.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNewVersion_KeyPress);
+            // 
+            // label4
+            // 
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(10, 59);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(257, 48);
+            this.label4.TabIndex = 1;
+            this.label4.Text = "version (Required) : You need to provide latest version of the application betwee" +
+    "n version tags. Version should be in X.X.X.X format.";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(1, 8);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(272, 30);
+            this.label3.TabIndex = 0;
+            this.label3.Text = "Use this wizard to create your xml file for \r\nAutoUpdater.net";
+            // 
+            // pnl3
+            // 
+            this.pnl3.Controls.Add(this.rbMandatoryMinimumVersion);
+            this.pnl3.Controls.Add(this.rbMandatoryMode2);
+            this.pnl3.Controls.Add(this.rbMandatoryMode1);
+            this.pnl3.Controls.Add(this.rbMandatory);
+            this.pnl3.Controls.Add(this.rbOptionalUpdate);
+            this.pnl3.Controls.Add(this.label18);
+            this.pnl3.Location = new System.Drawing.Point(92, 3);
+            this.pnl3.Name = "pnl3";
+            this.pnl3.Size = new System.Drawing.Size(82, 49);
+            this.pnl3.TabIndex = 0;
+            // 
+            // rbMandatoryMinimumVersion
+            // 
+            this.rbMandatoryMinimumVersion.AutoSize = true;
+            this.rbMandatoryMinimumVersion.Location = new System.Drawing.Point(5, 123);
+            this.rbMandatoryMinimumVersion.Name = "rbMandatoryMinimumVersion";
+            this.rbMandatoryMinimumVersion.Size = new System.Drawing.Size(236, 43);
+            this.rbMandatoryMinimumVersion.TabIndex = 6;
+            this.rbMandatoryMinimumVersion.Text = "Mandatory Minimum Version.\r\n(Only start update if app is less than minmum \r\nversi" +
+    "on specified here)";
+            this.toolTip1.SetToolTip(this.rbMandatoryMinimumVersion, "Only start update if app is less than minmum version specified here");
+            this.rbMandatoryMinimumVersion.UseVisualStyleBackColor = true;
+            this.rbMandatoryMinimumVersion.CheckedChanged += new System.EventHandler(this.rbMandatoryMinimumVersion_CheckedChanged);
+            // 
+            // rbMandatoryMode2
+            // 
+            this.rbMandatoryMode2.AutoSize = true;
+            this.rbMandatoryMode2.Location = new System.Drawing.Point(5, 90);
+            this.rbMandatoryMode2.Name = "rbMandatoryMode2";
+            this.rbMandatoryMode2.Size = new System.Drawing.Size(245, 30);
+            this.rbMandatoryMode2.TabIndex = 4;
+            this.rbMandatoryMode2.Text = "Madatory Mode 2 \r\n(Skip update form and download automatically)";
+            this.rbMandatoryMode2.UseVisualStyleBackColor = true;
+            this.rbMandatoryMode2.CheckedChanged += new System.EventHandler(this.rbMandatoryMode2_CheckedChanged);
+            // 
+            // rbMandatoryMode1
+            // 
+            this.rbMandatoryMode1.AutoSize = true;
+            this.rbMandatoryMode1.Location = new System.Drawing.Point(5, 70);
+            this.rbMandatoryMode1.Name = "rbMandatoryMode1";
+            this.rbMandatoryMode1.Size = new System.Drawing.Size(231, 17);
+            this.rbMandatoryMode1.TabIndex = 3;
+            this.rbMandatoryMode1.Text = "Madatory Mode 1 (No Close button on form)";
+            this.toolTip1.SetToolTip(this.rbMandatoryMode1, "Hide the Close button on update dialog.");
+            this.rbMandatoryMode1.UseVisualStyleBackColor = true;
+            this.rbMandatoryMode1.CheckedChanged += new System.EventHandler(this.rbMandatoryMode1_CheckedChanged);
+            // 
+            // rbMandatory
+            // 
+            this.rbMandatory.AutoSize = true;
+            this.rbMandatory.Location = new System.Drawing.Point(5, 50);
+            this.rbMandatory.Name = "rbMandatory";
+            this.rbMandatory.Size = new System.Drawing.Size(221, 17);
+            this.rbMandatory.TabIndex = 2;
+            this.rbMandatory.Text = "Mandatory. (All buttons displayed on form)";
+            this.toolTip1.SetToolTip(this.rbMandatory, "You can set this to true if you don\'t want user to skip this version. \r\nThis will" +
+        " ignore Remind Later and Skip options and hide both \r\nSkip and Remind Later butt" +
+        "on on update dialog.");
+            this.rbMandatory.UseVisualStyleBackColor = true;
+            this.rbMandatory.CheckedChanged += new System.EventHandler(this.rbMandatory_CheckedChanged);
+            // 
+            // rbOptionalUpdate
+            // 
+            this.rbOptionalUpdate.Location = new System.Drawing.Point(5, 27);
+            this.rbOptionalUpdate.Name = "rbOptionalUpdate";
+            this.rbOptionalUpdate.Size = new System.Drawing.Size(250, 20);
+            this.rbOptionalUpdate.TabIndex = 1;
+            this.rbOptionalUpdate.Text = "Allow user to decide if they want to run update.";
+            this.rbOptionalUpdate.UseVisualStyleBackColor = true;
+            this.rbOptionalUpdate.CheckedChanged += new System.EventHandler(this.rbOptionalUpdate_CheckedChanged);
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.Location = new System.Drawing.Point(5, 6);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(190, 16);
+            this.label18.TabIndex = 0;
+            this.label18.Text = "Select Update Mode Type";
+            // 
+            // pnlSetMinversion
+            // 
+            this.pnlSetMinversion.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pnlSetMinversion.Controls.Add(this.btnNextPrevVersion);
+            this.pnlSetMinversion.Controls.Add(this.txtMinVersion);
+            this.pnlSetMinversion.Controls.Add(this.btnPrevMinVersion);
+            this.pnlSetMinversion.Controls.Add(this.picMinVersion);
+            this.pnlSetMinversion.Controls.Add(this.label22);
+            this.pnlSetMinversion.Controls.Add(this.label21);
+            this.pnlSetMinversion.Location = new System.Drawing.Point(19, 56);
+            this.pnlSetMinversion.Name = "pnlSetMinversion";
+            this.pnlSetMinversion.Size = new System.Drawing.Size(67, 56);
+            this.pnlSetMinversion.TabIndex = 9;
+            // 
+            // btnNextPrevVersion
+            // 
+            this.btnNextPrevVersion.Image = ((System.Drawing.Image)(resources.GetObject("btnNextPrevVersion.Image")));
+            this.btnNextPrevVersion.Location = new System.Drawing.Point(175, 130);
+            this.btnNextPrevVersion.Name = "btnNextPrevVersion";
+            this.btnNextPrevVersion.Size = new System.Drawing.Size(80, 30);
+            this.btnNextPrevVersion.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnNextPrevVersion.TabIndex = 24;
+            this.btnNextPrevVersion.TabStop = false;
+            this.btnNextPrevVersion.Visible = false;
+            this.btnNextPrevVersion.Click += new System.EventHandler(this.btnNextPrevVersion_Click);
+            // 
+            // txtMinVersion
+            // 
+            this.txtMinVersion.Location = new System.Drawing.Point(8, 135);
+            this.txtMinVersion.Name = "txtMinVersion";
+            this.txtMinVersion.Size = new System.Drawing.Size(89, 20);
+            this.txtMinVersion.TabIndex = 23;
+            this.txtMinVersion.TextChanged += new System.EventHandler(this.txtMinVersion_TextChanged);
+            this.txtMinVersion.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtMinimunVersion_KeyPress);
+            // 
+            // btnPrevMinVersion
+            // 
+            this.btnPrevMinVersion.Image = ((System.Drawing.Image)(resources.GetObject("btnPrevMinVersion.Image")));
+            this.btnPrevMinVersion.Location = new System.Drawing.Point(176, 130);
+            this.btnPrevMinVersion.Name = "btnPrevMinVersion";
+            this.btnPrevMinVersion.Size = new System.Drawing.Size(80, 30);
+            this.btnPrevMinVersion.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnPrevMinVersion.TabIndex = 22;
+            this.btnPrevMinVersion.TabStop = false;
+            this.btnPrevMinVersion.Click += new System.EventHandler(this.btnPrevMinVersion_Click);
+            // 
+            // picMinVersion
+            // 
+            this.picMinVersion.Image = ((System.Drawing.Image)(resources.GetObject("picMinVersion.Image")));
+            this.picMinVersion.Location = new System.Drawing.Point(103, 132);
+            this.picMinVersion.Name = "picMinVersion";
+            this.picMinVersion.Size = new System.Drawing.Size(34, 25);
+            this.picMinVersion.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picMinVersion.TabIndex = 18;
+            this.picMinVersion.TabStop = false;
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.Location = new System.Drawing.Point(4, 116);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(135, 13);
+            this.label22.TabIndex = 20;
+            this.label22.Text = "Enter Minimum Version";
+            // 
+            // label21
+            // 
+            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.Location = new System.Drawing.Point(5, 5);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(265, 100);
+            this.label21.TabIndex = 19;
+            this.label21.Text = resources.GetString("label21.Text");
+            // 
             // pnl6
             // 
             this.pnl6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
@@ -369,20 +758,6 @@ namespace AutoUpdaterTest
             this.toolTip1.SetToolTip(this.btnOpenXmlFolder, "Opens the  XML file in file explorer.");
             this.btnOpenXmlFolder.UseVisualStyleBackColor = true;
             this.btnOpenXmlFolder.Click += new System.EventHandler(this.btnOpenXmlFolder_Click_1);
-            // 
-            // imageList1
-            // 
-            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
-            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
-            this.imageList1.Images.SetKeyName(0, "xml.svg.png");
-            this.imageList1.Images.SetKeyName(1, "xml_featured.png");
-            this.imageList1.Images.SetKeyName(2, "xml_Folder.png");
-            this.imageList1.Images.SetKeyName(3, "xml1.png");
-            this.imageList1.Images.SetKeyName(4, "xmlRound.png");
-            this.imageList1.Images.SetKeyName(5, "xmlWrite.png");
-            this.imageList1.Images.SetKeyName(6, "Folder1.png");
-            this.imageList1.Images.SetKeyName(7, "dial_knob.png");
-            this.imageList1.Images.SetKeyName(8, "AR.png");
             // 
             // btnOpenXMLFile
             // 
@@ -518,292 +893,6 @@ namespace AutoUpdaterTest
             this.label5.TabIndex = 4;
             this.label5.Text = resources.GetString("label5.Text");
             // 
-            // pnl3
-            // 
-            this.pnl3.Controls.Add(this.rbMandatoryMinimumVersion);
-            this.pnl3.Controls.Add(this.rbMandatoryMode2);
-            this.pnl3.Controls.Add(this.rbMandatoryMode1);
-            this.pnl3.Controls.Add(this.rbMandatory);
-            this.pnl3.Controls.Add(this.rbOptionalUpdate);
-            this.pnl3.Controls.Add(this.label18);
-            this.pnl3.Location = new System.Drawing.Point(92, 3);
-            this.pnl3.Name = "pnl3";
-            this.pnl3.Size = new System.Drawing.Size(82, 49);
-            this.pnl3.TabIndex = 0;
-            // 
-            // rbMandatoryMinimumVersion
-            // 
-            this.rbMandatoryMinimumVersion.AutoSize = true;
-            this.rbMandatoryMinimumVersion.Location = new System.Drawing.Point(5, 123);
-            this.rbMandatoryMinimumVersion.Name = "rbMandatoryMinimumVersion";
-            this.rbMandatoryMinimumVersion.Size = new System.Drawing.Size(236, 43);
-            this.rbMandatoryMinimumVersion.TabIndex = 6;
-            this.rbMandatoryMinimumVersion.Text = "Mandatory Minimum Version.\r\n(Only start update if app is less than minmum \r\nversi" +
-    "on specified here)";
-            this.toolTip1.SetToolTip(this.rbMandatoryMinimumVersion, "Only start update if app is less than minmum version specified here");
-            this.rbMandatoryMinimumVersion.UseVisualStyleBackColor = true;
-            this.rbMandatoryMinimumVersion.CheckedChanged += new System.EventHandler(this.rbMandatoryMinimumVersion_CheckedChanged);
-            // 
-            // rbMandatoryMode2
-            // 
-            this.rbMandatoryMode2.AutoSize = true;
-            this.rbMandatoryMode2.Location = new System.Drawing.Point(5, 90);
-            this.rbMandatoryMode2.Name = "rbMandatoryMode2";
-            this.rbMandatoryMode2.Size = new System.Drawing.Size(245, 30);
-            this.rbMandatoryMode2.TabIndex = 4;
-            this.rbMandatoryMode2.Text = "Madatory Mode 2 \r\n(Skip update form and download automatically)";
-            this.rbMandatoryMode2.UseVisualStyleBackColor = true;
-            this.rbMandatoryMode2.CheckedChanged += new System.EventHandler(this.rbMandatoryMode2_CheckedChanged);
-            // 
-            // rbMandatoryMode1
-            // 
-            this.rbMandatoryMode1.AutoSize = true;
-            this.rbMandatoryMode1.Location = new System.Drawing.Point(5, 70);
-            this.rbMandatoryMode1.Name = "rbMandatoryMode1";
-            this.rbMandatoryMode1.Size = new System.Drawing.Size(231, 17);
-            this.rbMandatoryMode1.TabIndex = 3;
-            this.rbMandatoryMode1.Text = "Madatory Mode 1 (No Close button on form)";
-            this.toolTip1.SetToolTip(this.rbMandatoryMode1, "Hide the Close button on update dialog.");
-            this.rbMandatoryMode1.UseVisualStyleBackColor = true;
-            this.rbMandatoryMode1.CheckedChanged += new System.EventHandler(this.rbMandatoryMode1_CheckedChanged);
-            // 
-            // rbMandatory
-            // 
-            this.rbMandatory.AutoSize = true;
-            this.rbMandatory.Location = new System.Drawing.Point(5, 50);
-            this.rbMandatory.Name = "rbMandatory";
-            this.rbMandatory.Size = new System.Drawing.Size(221, 17);
-            this.rbMandatory.TabIndex = 2;
-            this.rbMandatory.Text = "Mandatory. (All buttons displayed on form)";
-            this.toolTip1.SetToolTip(this.rbMandatory, "You can set this to true if you don\'t want user to skip this version. \r\nThis will" +
-        " ignore Remind Later and Skip options and hide both \r\nSkip and Remind Later butt" +
-        "on on update dialog.");
-            this.rbMandatory.UseVisualStyleBackColor = true;
-            this.rbMandatory.CheckedChanged += new System.EventHandler(this.rbMandatory_CheckedChanged);
-            // 
-            // rbOptionalUpdate
-            // 
-            this.rbOptionalUpdate.Location = new System.Drawing.Point(5, 27);
-            this.rbOptionalUpdate.Name = "rbOptionalUpdate";
-            this.rbOptionalUpdate.Size = new System.Drawing.Size(250, 20);
-            this.rbOptionalUpdate.TabIndex = 1;
-            this.rbOptionalUpdate.Text = "Allow user to decide if they want to run update.";
-            this.rbOptionalUpdate.UseVisualStyleBackColor = true;
-            this.rbOptionalUpdate.CheckedChanged += new System.EventHandler(this.rbOptionalUpdate_CheckedChanged);
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(5, 6);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(190, 16);
-            this.label18.TabIndex = 0;
-            this.label18.Text = "Select Update Mode Type";
-            // 
-            // pnl4
-            // 
-            this.pnl4.BackColor = System.Drawing.Color.Orange;
-            this.pnl4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pnl4.Controls.Add(this.pictureBox3);
-            this.pnl4.Controls.Add(this.btnCalculateChecksum);
-            this.pnl4.Controls.Add(this.cmbCheckSum);
-            this.pnl4.Controls.Add(this.label6);
-            this.pnl4.Controls.Add(this.txtDownloadableFile);
-            this.pnl4.Controls.Add(this.btnBrowseExeFile);
-            this.pnl4.Controls.Add(this.label14);
-            this.pnl4.Controls.Add(this.txtCheckSum);
-            this.pnl4.Controls.Add(this.label12);
-            this.pnl4.Controls.Add(this.label13);
-            this.pnl4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnl4.Location = new System.Drawing.Point(0, 0);
-            this.pnl4.Name = "pnl4";
-            this.pnl4.Size = new System.Drawing.Size(279, 178);
-            this.pnl4.TabIndex = 7;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(232, 123);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(34, 25);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 19;
-            this.pictureBox3.TabStop = false;
-            // 
-            // btnCalculateChecksum
-            // 
-            this.btnCalculateChecksum.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCalculateChecksum.ImageIndex = 7;
-            this.btnCalculateChecksum.ImageList = this.imageList1;
-            this.btnCalculateChecksum.Location = new System.Drawing.Point(5, 104);
-            this.btnCalculateChecksum.Name = "btnCalculateChecksum";
-            this.btnCalculateChecksum.Size = new System.Drawing.Size(148, 23);
-            this.btnCalculateChecksum.TabIndex = 8;
-            this.btnCalculateChecksum.Text = "      Calculate Checksum";
-            this.btnCalculateChecksum.UseVisualStyleBackColor = true;
-            this.btnCalculateChecksum.Click += new System.EventHandler(this.btnCalculateChecksum_Click);
-            // 
-            // cmbCheckSum
-            // 
-            this.cmbCheckSum.FormattingEnabled = true;
-            this.cmbCheckSum.Items.AddRange(new object[] {
-            "None",
-            "MD5",
-            "SHA1",
-            "SHA256",
-            "SHA384",
-            "SHA512"});
-            this.cmbCheckSum.Location = new System.Drawing.Point(7, 39);
-            this.cmbCheckSum.Name = "cmbCheckSum";
-            this.cmbCheckSum.Size = new System.Drawing.Size(76, 21);
-            this.cmbCheckSum.TabIndex = 3;
-            this.cmbCheckSum.Text = "None";
-            this.cmbCheckSum.SelectedIndexChanged += new System.EventHandler(this.cmbCheckSum_SelectedIndexChanged);
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(4, 62);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(232, 15);
-            this.label6.TabIndex = 7;
-            this.label6.Text = "Locate the file the end user will download";
-            // 
-            // txtDownloadableFile
-            // 
-            this.txtDownloadableFile.Location = new System.Drawing.Point(7, 80);
-            this.txtDownloadableFile.Name = "txtDownloadableFile";
-            this.txtDownloadableFile.Size = new System.Drawing.Size(226, 20);
-            this.txtDownloadableFile.TabIndex = 6;
-            this.toolTip1.SetToolTip(this.txtDownloadableFile, "Locate the file the end user will download.\r\n");
-            // 
-            // btnBrowseExeFile
-            // 
-            this.btnBrowseExeFile.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBrowseExeFile.ImageIndex = 6;
-            this.btnBrowseExeFile.ImageList = this.imageList1;
-            this.btnBrowseExeFile.Location = new System.Drawing.Point(234, 78);
-            this.btnBrowseExeFile.Name = "btnBrowseExeFile";
-            this.btnBrowseExeFile.Size = new System.Drawing.Size(28, 23);
-            this.btnBrowseExeFile.TabIndex = 5;
-            this.btnBrowseExeFile.UseVisualStyleBackColor = true;
-            this.btnBrowseExeFile.Click += new System.EventHandler(this.btnBrowseExeFile_Click);
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(4, 132);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(191, 15);
-            this.label14.TabIndex = 4;
-            this.label14.Text = "Enter Checksum manually or click";
-            // 
-            // txtCheckSum
-            // 
-            this.txtCheckSum.Location = new System.Drawing.Point(5, 151);
-            this.txtCheckSum.Name = "txtCheckSum";
-            this.txtCheckSum.Size = new System.Drawing.Size(261, 20);
-            this.txtCheckSum.TabIndex = 2;
-            this.txtCheckSum.TextChanged += new System.EventHandler(this.txtCheckSum_TextChanged);
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(89, 42);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(148, 15);
-            this.label12.TabIndex = 1;
-            this.label12.Text = "Select the checksum type.";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(4, 3);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(238, 30);
-            this.label13.TabIndex = 0;
-            this.label13.Text = "Checksum (Optional): You can provide the \r\nchecksum for the update file";
-            // 
-            // pnlSetMinversion
-            // 
-            this.pnlSetMinversion.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pnlSetMinversion.Controls.Add(this.btnNextPrevVersion);
-            this.pnlSetMinversion.Controls.Add(this.txtMinVersion);
-            this.pnlSetMinversion.Controls.Add(this.btnPrevMinVersion);
-            this.pnlSetMinversion.Controls.Add(this.picMinVersion);
-            this.pnlSetMinversion.Controls.Add(this.label22);
-            this.pnlSetMinversion.Controls.Add(this.label21);
-            this.pnlSetMinversion.Location = new System.Drawing.Point(19, 56);
-            this.pnlSetMinversion.Name = "pnlSetMinversion";
-            this.pnlSetMinversion.Size = new System.Drawing.Size(67, 56);
-            this.pnlSetMinversion.TabIndex = 9;
-            // 
-            // btnNextPrevVersion
-            // 
-            this.btnNextPrevVersion.Image = ((System.Drawing.Image)(resources.GetObject("btnNextPrevVersion.Image")));
-            this.btnNextPrevVersion.Location = new System.Drawing.Point(175, 130);
-            this.btnNextPrevVersion.Name = "btnNextPrevVersion";
-            this.btnNextPrevVersion.Size = new System.Drawing.Size(80, 30);
-            this.btnNextPrevVersion.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btnNextPrevVersion.TabIndex = 24;
-            this.btnNextPrevVersion.TabStop = false;
-            this.btnNextPrevVersion.Visible = false;
-            this.btnNextPrevVersion.Click += new System.EventHandler(this.btnNextPrevVersion_Click);
-            // 
-            // txtMinVersion
-            // 
-            this.txtMinVersion.Location = new System.Drawing.Point(8, 135);
-            this.txtMinVersion.Name = "txtMinVersion";
-            this.txtMinVersion.Size = new System.Drawing.Size(89, 20);
-            this.txtMinVersion.TabIndex = 23;
-            this.txtMinVersion.TextChanged += new System.EventHandler(this.txtMinVersion_TextChanged);
-            this.txtMinVersion.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtMinimunVersion_KeyPress);
-            // 
-            // btnPrevMinVersion
-            // 
-            this.btnPrevMinVersion.Image = ((System.Drawing.Image)(resources.GetObject("btnPrevMinVersion.Image")));
-            this.btnPrevMinVersion.Location = new System.Drawing.Point(176, 130);
-            this.btnPrevMinVersion.Name = "btnPrevMinVersion";
-            this.btnPrevMinVersion.Size = new System.Drawing.Size(80, 30);
-            this.btnPrevMinVersion.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btnPrevMinVersion.TabIndex = 22;
-            this.btnPrevMinVersion.TabStop = false;
-            this.btnPrevMinVersion.Click += new System.EventHandler(this.btnPrevMinVersion_Click);
-            // 
-            // picMinVersion
-            // 
-            this.picMinVersion.Image = ((System.Drawing.Image)(resources.GetObject("picMinVersion.Image")));
-            this.picMinVersion.Location = new System.Drawing.Point(103, 132);
-            this.picMinVersion.Name = "picMinVersion";
-            this.picMinVersion.Size = new System.Drawing.Size(34, 25);
-            this.picMinVersion.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picMinVersion.TabIndex = 18;
-            this.picMinVersion.TabStop = false;
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.Location = new System.Drawing.Point(4, 116);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(135, 13);
-            this.label22.TabIndex = 20;
-            this.label22.Text = "Enter Minimum Version";
-            // 
-            // label21
-            // 
-            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(5, 5);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(265, 100);
-            this.label21.TabIndex = 19;
-            this.label21.Text = resources.GetString("label21.Text");
-            // 
             // pnl5
             // 
             this.pnl5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
@@ -864,95 +953,6 @@ namespace AutoUpdaterTest
             this.label8.TabIndex = 23;
             this.label8.Text = resources.GetString("label8.Text");
             // 
-            // pnl1
-            // 
-            this.pnl1.BackColor = System.Drawing.Color.Orange;
-            this.pnl1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pnl1.Controls.Add(this.btnGetVersion);
-            this.pnl1.Controls.Add(this.label10);
-            this.pnl1.Controls.Add(this.label11);
-            this.pnl1.Controls.Add(this.picVersionStatus);
-            this.pnl1.Controls.Add(this.txtNewVersion);
-            this.pnl1.Controls.Add(this.label4);
-            this.pnl1.Controls.Add(this.label3);
-            this.pnl1.Location = new System.Drawing.Point(3, 8);
-            this.pnl1.Name = "pnl1";
-            this.pnl1.Size = new System.Drawing.Size(49, 32);
-            this.pnl1.TabIndex = 1;
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(47, 120);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(82, 16);
-            this.label10.TabIndex = 17;
-            this.label10.Text = "* Required";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(10, 148);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(42, 13);
-            this.label11.TabIndex = 16;
-            this.label11.Text = "Version";
-            // 
-            // picVersionStatus
-            // 
-            this.picVersionStatus.Image = ((System.Drawing.Image)(resources.GetObject("picVersionStatus.Image")));
-            this.picVersionStatus.Location = new System.Drawing.Point(119, 143);
-            this.picVersionStatus.Name = "picVersionStatus";
-            this.picVersionStatus.Size = new System.Drawing.Size(34, 25);
-            this.picVersionStatus.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picVersionStatus.TabIndex = 15;
-            this.picVersionStatus.TabStop = false;
-            // 
-            // txtNewVersion
-            // 
-            this.txtNewVersion.BackColor = System.Drawing.Color.White;
-            this.txtNewVersion.Location = new System.Drawing.Point(53, 145);
-            this.txtNewVersion.Name = "txtNewVersion";
-            this.txtNewVersion.Size = new System.Drawing.Size(65, 20);
-            this.txtNewVersion.TabIndex = 2;
-            this.txtNewVersion.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtNewVersion.TextChanged += new System.EventHandler(this.txtNewVersion_TextChanged);
-            this.txtNewVersion.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNewVersion_KeyPress);
-            // 
-            // label4
-            // 
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(10, 59);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(257, 48);
-            this.label4.TabIndex = 1;
-            this.label4.Text = "version (Required) : You need to provide latest version of the application betwee" +
-    "n version tags. Version should be in X.X.X.X format.";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(1, 8);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(272, 30);
-            this.label3.TabIndex = 0;
-            this.label3.Text = "Use this wizard to create your xml file for \r\nAutoUpdater.net";
-            // 
-            // btnGetVersion
-            // 
-            this.btnGetVersion.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnGetVersion.ImageIndex = 8;
-            this.btnGetVersion.ImageList = this.imageList1;
-            this.btnGetVersion.Location = new System.Drawing.Point(169, 143);
-            this.btnGetVersion.Name = "btnGetVersion";
-            this.btnGetVersion.Size = new System.Drawing.Size(98, 23);
-            this.btnGetVersion.TabIndex = 18;
-            this.btnGetVersion.Text = "      Get Version";
-            this.btnGetVersion.UseVisualStyleBackColor = true;
-            this.btnGetVersion.Click += new System.EventHandler(this.btnGetVersion_Click);
-            // 
             // frmCreateXml
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -980,28 +980,28 @@ namespace AutoUpdaterTest
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
+            this.pnl4.ResumeLayout(false);
+            this.pnl4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            this.pnl1.ResumeLayout(false);
+            this.pnl1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picVersionStatus)).EndInit();
+            this.pnl3.ResumeLayout(false);
+            this.pnl3.PerformLayout();
+            this.pnlSetMinversion.ResumeLayout(false);
+            this.pnlSetMinversion.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btnNextPrevVersion)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnPrevMinVersion)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picMinVersion)).EndInit();
             this.pnl6.ResumeLayout(false);
             this.pnl6.PerformLayout();
             this.pnl6A.ResumeLayout(false);
             this.pnl2.ResumeLayout(false);
             this.pnl2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picDownloadURL)).EndInit();
-            this.pnl3.ResumeLayout(false);
-            this.pnl3.PerformLayout();
-            this.pnl4.ResumeLayout(false);
-            this.pnl4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            this.pnlSetMinversion.ResumeLayout(false);
-            this.pnlSetMinversion.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.btnNextPrevVersion)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnPrevMinVersion)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picMinVersion)).EndInit();
             this.pnl5.ResumeLayout(false);
             this.pnl5.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            this.pnl1.ResumeLayout(false);
-            this.pnl1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picVersionStatus)).EndInit();
             this.ResumeLayout(false);
 
         }
