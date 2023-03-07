@@ -74,10 +74,19 @@
     <Compile Include="frmCreateXml.Designer.cs">
       <DependentUpon>frmCreateXml.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmXmlCompleted.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmXmlCompleted.Designer.cs">
+      <DependentUpon>frmXmlCompleted.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmCreateXml.resx">
       <DependentUpon>frmCreateXml.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmXmlCompleted.resx">
+      <DependentUpon>frmXmlCompleted.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

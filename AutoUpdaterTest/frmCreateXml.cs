@@ -309,7 +309,7 @@ namespace AutoUpdaterTest
 
             if (txtXmlFilename.Text != string.Empty)
             {
-                xMLitems.xmlFileName = txtCheckSum.Text;
+                xMLitems.xmlFileName = txtXmlFilename.Text;
 
                 if (!xMLitems.xmlFileName.EndsWith(".xml"))
                 {
@@ -324,6 +324,10 @@ namespace AutoUpdaterTest
 
             if (txtSaveToFolder.Text != string.Empty)
             {
+                if (!txtSaveToFolder.Text.EndsWith("\\"))
+                {
+                    txtSaveToFolder.Text += "\\";
+                }
                 xMLitems.xmlFolderPath = txtSaveToFolder.Text;
             }
         }
@@ -664,6 +668,10 @@ namespace AutoUpdaterTest
                 }
 
                 pnl6A.Enabled = true;
+                if (!xMLitems.xmlFolderPath.EndsWith("\\"))
+                {
+                    xMLitems.xmlFolderPath += "\\";
+                }
                 xmlDoc.Save(xMLitems.xmlFolderPath + xMLitems.xmlFileName);
 
                 frmXmlCompleted frm = new frmXmlCompleted();

@@ -48,3 +48,14 @@ D:\repos\AutoUpdater.NET-master\AutoUpdaterTest\obj\Debug\AutoUpdaterTest.exe
 D:\repos\AutoUpdater.NET-master\AutoUpdaterTest\obj\Debug\AutoUpdaterTest.pdb
 D:\repos\AutoUpdater.NET-master\AutoUpdaterTest\obj\Debug\AutoUpdaterTest.csproj.AssemblyReference.cache
 D:\repos\AutoUpdater.NET-master\AutoUpdaterTest\bin\Debug\AutoUpdater.NET.dll.config
+D:\Downloads\AutoUpdater.NET.XML-Creator-master-master (1)\AutoUpdater.NET.XML-Creator-master-master\AutoUpdaterTest\obj\Debug\AutoUpdaterTest.csproj.AssemblyReference.cache
+D:\Downloads\AutoUpdater.NET.XML-Creator-master-master (1)\AutoUpdater.NET.XML-Creator-master-master\AutoUpdaterTest\obj\Debug\AutoUpdaterTest.frmCreateXml.resources
+D:\Downloads\AutoUpdater.NET.XML-Creator-master-master (1)\AutoUpdater.NET.XML-Creator-master-master\AutoUpdaterTest\obj\Debug\AutoUpdaterTest.Properties.Resources.resources
+D:\Downloads\AutoUpdater.NET.XML-Creator-master-master (1)\AutoUpdater.NET.XML-Creator-master-master\AutoUpdaterTest\obj\Debug\AutoUpdaterTest.csproj.GenerateResource.cache
+D:\Downloads\AutoUpdater.NET.XML-Creator-master-master (1)\AutoUpdater.NET.XML-Creator-master-master\AutoUpdaterTest\obj\Debug\AutoUpdaterTest.csproj.CoreCompileInputs.cache
+D:\Downloads\AutoUpdater.NET.XML-Creator-master-master (1)\AutoUpdater.NET.XML-Creator-master-master\AutoUpdaterTest\obj\Debug\AutoUpdaterTest.exe
+D:\Downloads\AutoUpdater.NET.XML-Creator-master-master (1)\AutoUpdater.NET.XML-Creator-master-master\AutoUpdaterTest\obj\Debug\AutoUpdaterTest.pdb
+D:\Downloads\AutoUpdater.NET.XML-Creator-master-master (1)\AutoUpdater.NET.XML-Creator-master-master\AutoUpdaterTest\bin\Debug\AutoUpdaterTest.exe.config
+D:\Downloads\AutoUpdater.NET.XML-Creator-master-master (1)\AutoUpdater.NET.XML-Creator-master-master\AutoUpdaterTest\bin\Debug\AutoUpdaterTest.exe
+D:\Downloads\AutoUpdater.NET.XML-Creator-master-master (1)\AutoUpdater.NET.XML-Creator-master-master\AutoUpdaterTest\bin\Debug\AutoUpdaterTest.pdb
+D:\Downloads\AutoUpdater.NET.XML-Creator-master-master (1)\AutoUpdater.NET.XML-Creator-master-master\AutoUpdaterTest\obj\Debug\AutoUpdaterTest.frmXmlCompleted.resources
