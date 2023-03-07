@@ -2,7 +2,6 @@
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
-using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Text;
@@ -261,7 +260,7 @@ namespace AutoUpdaterTest
             if (ofd.FileName != string.Empty)
             {
                 txtDownloadableFile.Text = ofd.FileName;
-                //Process.Start(ofd.FileName);
+                Process.Start(ofd.FileName);
             }
         }
 
@@ -310,7 +309,7 @@ namespace AutoUpdaterTest
 
             if (txtXmlFilename.Text != string.Empty)
             {
-                xMLitems.xmlFileName = txtXmlFilename.Text;
+                xMLitems.xmlFileName = txtCheckSum.Text;
 
                 if (!xMLitems.xmlFileName.EndsWith(".xml"))
                 {
@@ -333,8 +332,7 @@ namespace AutoUpdaterTest
         {
             FolderBrowserDialog fbd = new FolderBrowserDialog();
             fbd.ShowDialog();
-            txtSaveToFolder.Text = fbd.SelectedPath + "\\";
-            xMLitems.xmlFolderPath = txtSaveToFolder.Text;
+            txtSaveToFolder.Text = fbd.SelectedPath;
         }
 
         private void btnCreateXMLFile_Click(object sender, EventArgs e)
@@ -342,9 +340,9 @@ namespace AutoUpdaterTest
             if (txtXmlFilename.Text != string.Empty && txtSaveToFolder.Text != string.Empty)
             {
                 createXML(); 
-                //pnl6A.Visible = true;
-                //pnl6.BringToFront();
-                //pnl6A.Dock = DockStyle.Bottom;
+                pnl6A.Visible = true;
+                pnl6.BringToFront();
+                pnl6A.Dock = DockStyle.Bottom;
             }
             else { MessageBox.Show("Both answers are required. Please try again", "Can't Write XML"); pnl6A.Visible = false; }
         }
@@ -555,7 +553,6 @@ namespace AutoUpdaterTest
                 case 6: //Review XML
                     this.pnl6.Dock = System.Windows.Forms.DockStyle.Fill;
                     labelStatus.Text = "Enter XML file name and click next to continue";
-                    pnl6A.Dock = DockStyle.Bottom;
                     pnl6.BringToFront();
                     break;
 
@@ -668,7 +665,14 @@ namespace AutoUpdaterTest
 
                 pnl6A.Enabled = true;
                 xmlDoc.Save(xMLitems.xmlFolderPath + xMLitems.xmlFileName);
-                //Process.Start(xMLitems.xmlFolderPath + xMLitems.xmlFileName);
+
+                frmXmlCompleted frm = new frmXmlCompleted();
+                DialogResult result = frm.ShowDialog();
+
+                if (result == DialogResult.Yes)
+                {
+                    Process.Start(xMLitems.xmlFolderPath + xMLitems.xmlFileName);
+                }
             }
             catch (Exception)
             {
@@ -677,17 +681,5 @@ namespace AutoUpdaterTest
             }
         }
 
-        private void btnGetVersion_Click(object sender, EventArgs e)
-        {
-            OpenFileDialog ofd = new OpenFileDialog();
-            ofd.InitialDirectory = Environment.CurrentDirectory;
-
-            ofd.ShowDialog();
-
-            if (ofd.FileName != string.Empty)
-            {
-                txtNewVersion.Text = Assembly.GetEntryAssembly().GetName().Version.ToString();
-            }
-        }
     }
 }
