@@ -179,6 +179,7 @@ namespace AutoUpdaterTest
             {
                 xMLitems.MandatoryType = AutoUpdateXMLitems.MandatoryTypes.Mandatory;
                 xMLitems.mandatory = true;
+                ShowMinVersion();
             }
         }
 
@@ -189,16 +190,9 @@ namespace AutoUpdaterTest
 
             if (rbMandatoryMinimumVersion.Checked)
             {
-                pnlSetMinversion.Visible = true;
-                pnlSetMinversion.Dock = DockStyle.Fill;
-                pnlSetMinversion.BringToFront();
-                rbMandatoryMinimumVersion.Checked = false;
-                xMLitems.MandatoryType = AutoUpdateXMLitems.MandatoryTypes.MandatoryMinVersion;
+                ShowMinVersion();
             }
-            if (txtMinVersion.Text != string.Empty)
-            {
-                xMLitems.mandatory_minVersion = true;
-            }
+           
         }
 
         private void rbMandatoryMode2_CheckedChanged(object sender, EventArgs e)
@@ -210,6 +204,7 @@ namespace AutoUpdaterTest
             {
                 xMLitems.MandatoryType = AutoUpdateXMLitems.MandatoryTypes.MandatoryOption2;
                 xMLitems.mandatoryOption2 = true;
+                ShowMinVersion();
             }
         }
 
@@ -222,7 +217,9 @@ namespace AutoUpdaterTest
             {
                 xMLitems.MandatoryType = AutoUpdateXMLitems.MandatoryTypes.MandatoryOption1;
                 xMLitems.mandatoryOption1 = true;
+                ShowMinVersion();
             }
+           
         }
 
         #endregion
@@ -386,12 +383,6 @@ namespace AutoUpdaterTest
         #endregion
         #region pnl SetMinversion
 
-        private void btnPrevMinVersion_Click(object sender, EventArgs e)
-        {
-            pnlSetMinversion.Visible = false;
-            //CheckRbUpdateModeType();
-        }
-
         private void txtMinVersion_TextChanged(object sender, EventArgs e)
         {
             string str = txtMinVersion.Text;
@@ -405,8 +396,6 @@ namespace AutoUpdaterTest
             {
                 picMinVersion.Image = Properties.Resources.RedX;
                 xMLitems.minVersion = string.Empty;
-                btnPrevMinVersion.Visible = true;
-                btnNextPrevVersion.Visible = false;
             }
             else
             {
@@ -415,15 +404,11 @@ namespace AutoUpdaterTest
                     picMinVersion.Image = Properties.Resources.G_Check;
                     xMLitems.minVersion = txtMinVersion.Text;
                     btnNext.Enabled = true;
-                    btnPrevMinVersion.Visible = false;
-                    btnNextPrevVersion.Visible = true;
                 }
                 else
                 {
                     picMinVersion.Image = Properties.Resources.RedX;
                     xMLitems.minVersion = string.Empty;
-                    btnPrevMinVersion.Visible = true;
-                    btnNextPrevVersion.Visible = false;
                 }
             }
         }
@@ -436,6 +421,20 @@ namespace AutoUpdaterTest
                 && e.KeyChar != '.')
             {
                 e.Handled = true;
+            }
+        }
+
+        private void ShowMinVersion()
+        {
+            pnlSetMinversion.Visible = true;
+            pnlSetMinversion.Dock = DockStyle.Fill;
+            pnlSetMinversion.BringToFront();
+            rbMandatoryMinimumVersion.Checked = false;
+            xMLitems.MandatoryType = AutoUpdateXMLitems.MandatoryTypes.MandatoryMinVersion;
+            if (txtMinVersion.Text != string.Empty)
+            {
+                xMLitems.mandatory_minVersion = true;
+                xMLitems.minVersion = txtMinVersion.Text;
             }
         }
 
@@ -490,6 +489,7 @@ namespace AutoUpdaterTest
 
         #endregion
 
+       
         /// <summary>
         /// Undocks all Panels, Displays and docks panels based on page number
         /// </summary>

@@ -119,35 +119,24 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Aupdate.ico" />
+    <Content Include="Logo\Horizontal.png" />
+    <Content Include="Logo\Logo.png" />
+    <Content Include="Logo\Vertical.png" />
+    <None Include="Resources\Horizontal.png" />
+    <None Include="Resources\xml_featured.png" />
+    <None Include="Resources\xml.svg.png" />
+    <None Include="Resources\G_Check.png" />
+    <None Include="Resources\ExitButton.png" />
+    <None Include="Resources\Exit.png" />
     <None Include="Resources\AutoUpdateCloud.png" />
-  </ItemGroup>
-  <ItemGroup>
+    <None Include="Resources\Screenshot 2023-03-01 114109.png" />
+    <None Include="Resources\RedX.png" />
+    <None Include="Resources\Previous.png" />
+    <None Include="Resources\Optional.png" />
     <None Include="Resources\Next1.png" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Previous.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Screenshot 2023-03-01 114109.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\G_Check.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\RedX.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Optional.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\ExitButton.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Exit.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Aupdate.ico" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

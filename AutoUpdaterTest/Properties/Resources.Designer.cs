@@ -103,6 +103,16 @@ namespace AutoUpdaterTest.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Horizontal {
+            get {
+                object obj = ResourceManager.GetObject("Horizontal", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Next1 {
             get {
                 object obj = ResourceManager.GetObject("Next1", resourceCulture);
@@ -145,7 +155,27 @@ namespace AutoUpdaterTest.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap Screenshot_2023_03_01_114109 {
             get {
-                object obj = ResourceManager.GetObject("Screenshot 2023-03-01 114109", resourceCulture);
+                object obj = ResourceManager.GetObject("Screenshot_2023_03_01_114109", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap xml_featured {
+            get {
+                object obj = ResourceManager.GetObject("xml_featured", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap xml_svg {
+            get {
+                object obj = ResourceManager.GetObject("xml_svg", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

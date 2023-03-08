@@ -74,3 +74,96 @@ D:\repos\AutoUpdaterTest\obj\Debug\AutoUpdaterTest.csproj.CopyComplete
 D:\repos\AutoUpdaterTest\obj\Debug\AutoUpdaterTest.exe
 D:\repos\AutoUpdaterTest\obj\Debug\AutoUpdaterTest.pdb
 D:\repos\AutoUpdaterTest\obj\Debug\AutoUpdaterTest.frmXmlCompleted.resources
+D:\Downloads\AutoUpdater.NET.XML-Creator-master-master\AutoUpdater.NET.XML-Creator-master-master\AutoUpdaterTest\bin\Debug\AutoUpdaterTest.exe.config
+D:\Downloads\AutoUpdater.NET.XML-Creator-master-master\AutoUpdater.NET.XML-Creator-master-master\AutoUpdaterTest\bin\Debug\AutoUpdaterTest.exe
+D:\Downloads\AutoUpdater.NET.XML-Creator-master-master\AutoUpdater.NET.XML-Creator-master-master\AutoUpdaterTest\bin\Debug\AutoUpdaterTest.pdb
+D:\Downloads\AutoUpdater.NET.XML-Creator-master-master\AutoUpdater.NET.XML-Creator-master-master\AutoUpdaterTest\obj\Debug\AutoUpdaterTest.csproj.AssemblyReference.cache
+D:\Downloads\AutoUpdater.NET.XML-Creator-master-master\AutoUpdater.NET.XML-Creator-master-master\AutoUpdaterTest\obj\Debug\AutoUpdaterTest.frmCreateXml.resources
+D:\Downloads\AutoUpdater.NET.XML-Creator-master-master\AutoUpdater.NET.XML-Creator-master-master\AutoUpdaterTest\obj\Debug\AutoUpdaterTest.frmXmlCompleted.resources
+D:\Downloads\AutoUpdater.NET.XML-Creator-master-master\AutoUpdater.NET.XML-Creator-master-master\AutoUpdaterTest\obj\Debug\AutoUpdaterTest.Properties.Resources.resources
+D:\Downloads\AutoUpdater.NET.XML-Creator-master-master\AutoUpdater.NET.XML-Creator-master-master\AutoUpdaterTest\obj\Debug\AutoUpdaterTest.csproj.GenerateResource.cache
+D:\Downloads\AutoUpdater.NET.XML-Creator-master-master\AutoUpdater.NET.XML-Creator-master-master\AutoUpdaterTest\obj\Debug\AutoUpdaterTest.csproj.CoreCompileInputs.cache
+D:\Downloads\AutoUpdater.NET.XML-Creator-master-master\AutoUpdater.NET.XML-Creator-master-master\AutoUpdaterTest\obj\Debug\AutoUpdaterTest.exe
+D:\Downloads\AutoUpdater.NET.XML-Creator-master-master\AutoUpdater.NET.XML-Creator-master-master\AutoUpdaterTest\obj\Debug\AutoUpdaterTest.pdb
+C:\Users\dwain\OneDrive\Desktop\AutoUpdater.NET.XML-Creator-master-master\AutoUpdaterTest\obj\Debug\AutoUpdaterTest.csproj.AssemblyReference.cache
+C:\Users\dwain\OneDrive\Desktop\AutoUpdater.NET.XML-Creator-master-master\AutoUpdaterTest\obj\Debug\AutoUpdaterTest.exe
+C:\Users\dwain\OneDrive\Desktop\AutoUpdater.NET.XML-Creator-master-master\AutoUpdaterTest\obj\Debug\AutoUpdaterTest.pdb
+C:\Users\dwain\OneDrive\Desktop\AutoUpdater.NET.XML-Creator-master-master\AutoUpdaterTest\obj\Debug\AutoUpdaterTest.frmCreateXml.resources
+C:\Users\dwain\OneDrive\Desktop\AutoUpdater.NET.XML-Creator-master-master\AutoUpdaterTest\obj\Debug\AutoUpdaterTest.frmXmlCompleted.resources
+C:\Users\dwain\OneDrive\Desktop\AutoUpdater.NET.XML-Creator-master-master\AutoUpdaterTest\obj\Debug\AutoUpdaterTest.csproj.GenerateResource.cache
+C:\Users\dwain\OneDrive\Desktop\AutoUpdater.NET.XML-Creator-master-master\AutoUpdaterTest\obj\Debug\AutoUpdaterTest.Properties.Resources.resources
+C:\Users\dwain\OneDrive\Desktop\AutoUpdater.NET.XML-Creator-master-master\AutoUpdaterTest\obj\Debug\AutoUpdaterTest.csproj.CoreCompileInputs.cache
+C:\Users\dwain\OneDrive\Desktop\AutoUpdater.NET.XML-Creator-master-master\AutoUpdaterTest\bin\Debug\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\dwain\OneDrive\Desktop\AutoUpdater.NET.XML-Creator-master-master\AutoUpdaterTest\bin\Debug\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\dwain\OneDrive\Desktop\AutoUpdater.NET.XML-Creator-master-master\AutoUpdaterTest\bin\Debug\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\dwain\OneDrive\Desktop\AutoUpdater.NET.XML-Creator-master-master\AutoUpdaterTest\bin\Debug\AutoUpdaterTest.exe.config
+C:\Users\dwain\OneDrive\Desktop\AutoUpdater.NET.XML-Creator-master-master\AutoUpdaterTest\bin\Debug\AutoUpdaterTest.exe
+C:\Users\dwain\OneDrive\Desktop\AutoUpdater.NET.XML-Creator-master-master\AutoUpdaterTest\bin\Debug\AutoUpdaterTest.pdb
+C:\Users\dwain\OneDrive\Desktop\AutoUpdater.NET.XML-Creator-master-master\AutoUpdaterTest\bin\Debug\AutoUpdater.NET.dll
+C:\Users\dwain\OneDrive\Desktop\AutoUpdater.NET.XML-Creator-master-master\AutoUpdaterTest\bin\Debug\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\dwain\OneDrive\Desktop\AutoUpdater.NET.XML-Creator-master-master\AutoUpdaterTest\bin\Debug\Microsoft.Web.WebView2.Core.dll
+C:\Users\dwain\OneDrive\Desktop\AutoUpdater.NET.XML-Creator-master-master\AutoUpdaterTest\bin\Debug\AutoUpdater.NET.pdb
+C:\Users\dwain\OneDrive\Desktop\AutoUpdater.NET.XML-Creator-master-master\AutoUpdaterTest\bin\Debug\AutoUpdater.NET.xml
+C:\Users\dwain\OneDrive\Desktop\AutoUpdater.NET.XML-Creator-master-master\AutoUpdaterTest\obj\Debug\AutoUpdaterTest.csproj.CopyComplete
+C:\Users\dwain\OneDrive\Desktop\AutoUpdater.NET.XML-Creator-master-master\AutoUpdaterTest\bin\Debug\ar\AutoUpdater.NET.resources.dll
+C:\Users\dwain\OneDrive\Desktop\AutoUpdater.NET.XML-Creator-master-master\AutoUpdaterTest\bin\Debug\cs\AutoUpdater.NET.resources.dll
+C:\Users\dwain\OneDrive\Desktop\AutoUpdater.NET.XML-Creator-master-master\AutoUpdaterTest\bin\Debug\da\AutoUpdater.NET.resources.dll
+C:\Users\dwain\OneDrive\Desktop\AutoUpdater.NET.XML-Creator-master-master\AutoUpdaterTest\bin\Debug\de\AutoUpdater.NET.resources.dll
+C:\Users\dwain\OneDrive\Desktop\AutoUpdater.NET.XML-Creator-master-master\AutoUpdaterTest\bin\Debug\es\AutoUpdater.NET.resources.dll
+C:\Users\dwain\OneDrive\Desktop\AutoUpdater.NET.XML-Creator-master-master\AutoUpdaterTest\bin\Debug\fr\AutoUpdater.NET.resources.dll
+C:\Users\dwain\OneDrive\Desktop\AutoUpdater.NET.XML-Creator-master-master\AutoUpdaterTest\bin\Debug\it\AutoUpdater.NET.resources.dll
+C:\Users\dwain\OneDrive\Desktop\AutoUpdater.NET.XML-Creator-master-master\AutoUpdaterTest\bin\Debug\ja-JP\AutoUpdater.NET.resources.dll
+C:\Users\dwain\OneDrive\Desktop\AutoUpdater.NET.XML-Creator-master-master\AutoUpdaterTest\bin\Debug\ko\AutoUpdater.NET.resources.dll
+C:\Users\dwain\OneDrive\Desktop\AutoUpdater.NET.XML-Creator-master-master\AutoUpdaterTest\bin\Debug\lv\AutoUpdater.NET.resources.dll
+C:\Users\dwain\OneDrive\Desktop\AutoUpdater.NET.XML-Creator-master-master\AutoUpdaterTest\bin\Debug\nl\AutoUpdater.NET.resources.dll
+C:\Users\dwain\OneDrive\Desktop\AutoUpdater.NET.XML-Creator-master-master\AutoUpdaterTest\bin\Debug\pl\AutoUpdater.NET.resources.dll
+C:\Users\dwain\OneDrive\Desktop\AutoUpdater.NET.XML-Creator-master-master\AutoUpdaterTest\bin\Debug\pt\AutoUpdater.NET.resources.dll
+C:\Users\dwain\OneDrive\Desktop\AutoUpdater.NET.XML-Creator-master-master\AutoUpdaterTest\bin\Debug\pt-BR\AutoUpdater.NET.resources.dll
+C:\Users\dwain\OneDrive\Desktop\AutoUpdater.NET.XML-Creator-master-master\AutoUpdaterTest\bin\Debug\ru\AutoUpdater.NET.resources.dll
+C:\Users\dwain\OneDrive\Desktop\AutoUpdater.NET.XML-Creator-master-master\AutoUpdaterTest\bin\Debug\sk\AutoUpdater.NET.resources.dll
+C:\Users\dwain\OneDrive\Desktop\AutoUpdater.NET.XML-Creator-master-master\AutoUpdaterTest\bin\Debug\sv\AutoUpdater.NET.resources.dll
+C:\Users\dwain\OneDrive\Desktop\AutoUpdater.NET.XML-Creator-master-master\AutoUpdaterTest\bin\Debug\th\AutoUpdater.NET.resources.dll
+C:\Users\dwain\OneDrive\Desktop\AutoUpdater.NET.XML-Creator-master-master\AutoUpdaterTest\bin\Debug\tr\AutoUpdater.NET.resources.dll
+C:\Users\dwain\OneDrive\Desktop\AutoUpdater.NET.XML-Creator-master-master\AutoUpdaterTest\bin\Debug\zh\AutoUpdater.NET.resources.dll
+C:\Users\dwain\OneDrive\Desktop\AutoUpdater.NET.XML-Creator-master-master\AutoUpdaterTest\bin\Debug\zh-TW\AutoUpdater.NET.resources.dll
+C:\Users\dwain\OneDrive\Desktop\Autio Update Back ups\AutoUpdater.NET.XMLOrig\AutoUpdaterTest\bin\Debug\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\dwain\OneDrive\Desktop\Autio Update Back ups\AutoUpdater.NET.XMLOrig\AutoUpdaterTest\bin\Debug\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\dwain\OneDrive\Desktop\Autio Update Back ups\AutoUpdater.NET.XMLOrig\AutoUpdaterTest\bin\Debug\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\dwain\OneDrive\Desktop\Autio Update Back ups\AutoUpdater.NET.XMLOrig\AutoUpdaterTest\bin\Debug\AutoUpdaterTest.exe.config
+C:\Users\dwain\OneDrive\Desktop\Autio Update Back ups\AutoUpdater.NET.XMLOrig\AutoUpdaterTest\bin\Debug\AutoUpdaterTest.exe
+C:\Users\dwain\OneDrive\Desktop\Autio Update Back ups\AutoUpdater.NET.XMLOrig\AutoUpdaterTest\bin\Debug\AutoUpdaterTest.pdb
+C:\Users\dwain\OneDrive\Desktop\Autio Update Back ups\AutoUpdater.NET.XMLOrig\AutoUpdaterTest\bin\Debug\AutoUpdater.NET.dll
+C:\Users\dwain\OneDrive\Desktop\Autio Update Back ups\AutoUpdater.NET.XMLOrig\AutoUpdaterTest\bin\Debug\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\dwain\OneDrive\Desktop\Autio Update Back ups\AutoUpdater.NET.XMLOrig\AutoUpdaterTest\bin\Debug\Microsoft.Web.WebView2.Core.dll
+C:\Users\dwain\OneDrive\Desktop\Autio Update Back ups\AutoUpdater.NET.XMLOrig\AutoUpdaterTest\bin\Debug\AutoUpdater.NET.pdb
+C:\Users\dwain\OneDrive\Desktop\Autio Update Back ups\AutoUpdater.NET.XMLOrig\AutoUpdaterTest\bin\Debug\AutoUpdater.NET.xml
+C:\Users\dwain\OneDrive\Desktop\Autio Update Back ups\AutoUpdater.NET.XMLOrig\AutoUpdaterTest\bin\Debug\ar\AutoUpdater.NET.resources.dll
+C:\Users\dwain\OneDrive\Desktop\Autio Update Back ups\AutoUpdater.NET.XMLOrig\AutoUpdaterTest\bin\Debug\cs\AutoUpdater.NET.resources.dll
+C:\Users\dwain\OneDrive\Desktop\Autio Update Back ups\AutoUpdater.NET.XMLOrig\AutoUpdaterTest\bin\Debug\da\AutoUpdater.NET.resources.dll
+C:\Users\dwain\OneDrive\Desktop\Autio Update Back ups\AutoUpdater.NET.XMLOrig\AutoUpdaterTest\bin\Debug\de\AutoUpdater.NET.resources.dll
+C:\Users\dwain\OneDrive\Desktop\Autio Update Back ups\AutoUpdater.NET.XMLOrig\AutoUpdaterTest\bin\Debug\es\AutoUpdater.NET.resources.dll
+C:\Users\dwain\OneDrive\Desktop\Autio Update Back ups\AutoUpdater.NET.XMLOrig\AutoUpdaterTest\bin\Debug\fr\AutoUpdater.NET.resources.dll
+C:\Users\dwain\OneDrive\Desktop\Autio Update Back ups\AutoUpdater.NET.XMLOrig\AutoUpdaterTest\bin\Debug\it\AutoUpdater.NET.resources.dll
+C:\Users\dwain\OneDrive\Desktop\Autio Update Back ups\AutoUpdater.NET.XMLOrig\AutoUpdaterTest\bin\Debug\ja-JP\AutoUpdater.NET.resources.dll
+C:\Users\dwain\OneDrive\Desktop\Autio Update Back ups\AutoUpdater.NET.XMLOrig\AutoUpdaterTest\bin\Debug\ko\AutoUpdater.NET.resources.dll
+C:\Users\dwain\OneDrive\Desktop\Autio Update Back ups\AutoUpdater.NET.XMLOrig\AutoUpdaterTest\bin\Debug\lv\AutoUpdater.NET.resources.dll
+C:\Users\dwain\OneDrive\Desktop\Autio Update Back ups\AutoUpdater.NET.XMLOrig\AutoUpdaterTest\bin\Debug\nl\AutoUpdater.NET.resources.dll
+C:\Users\dwain\OneDrive\Desktop\Autio Update Back ups\AutoUpdater.NET.XMLOrig\AutoUpdaterTest\bin\Debug\pl\AutoUpdater.NET.resources.dll
+C:\Users\dwain\OneDrive\Desktop\Autio Update Back ups\AutoUpdater.NET.XMLOrig\AutoUpdaterTest\bin\Debug\pt\AutoUpdater.NET.resources.dll
+C:\Users\dwain\OneDrive\Desktop\Autio Update Back ups\AutoUpdater.NET.XMLOrig\AutoUpdaterTest\bin\Debug\pt-BR\AutoUpdater.NET.resources.dll
+C:\Users\dwain\OneDrive\Desktop\Autio Update Back ups\AutoUpdater.NET.XMLOrig\AutoUpdaterTest\bin\Debug\ru\AutoUpdater.NET.resources.dll
+C:\Users\dwain\OneDrive\Desktop\Autio Update Back ups\AutoUpdater.NET.XMLOrig\AutoUpdaterTest\bin\Debug\sk\AutoUpdater.NET.resources.dll
+C:\Users\dwain\OneDrive\Desktop\Autio Update Back ups\AutoUpdater.NET.XMLOrig\AutoUpdaterTest\bin\Debug\sv\AutoUpdater.NET.resources.dll
+C:\Users\dwain\OneDrive\Desktop\Autio Update Back ups\AutoUpdater.NET.XMLOrig\AutoUpdaterTest\bin\Debug\th\AutoUpdater.NET.resources.dll
+C:\Users\dwain\OneDrive\Desktop\Autio Update Back ups\AutoUpdater.NET.XMLOrig\AutoUpdaterTest\bin\Debug\tr\AutoUpdater.NET.resources.dll
+C:\Users\dwain\OneDrive\Desktop\Autio Update Back ups\AutoUpdater.NET.XMLOrig\AutoUpdaterTest\bin\Debug\zh\AutoUpdater.NET.resources.dll
+C:\Users\dwain\OneDrive\Desktop\Autio Update Back ups\AutoUpdater.NET.XMLOrig\AutoUpdaterTest\bin\Debug\zh-TW\AutoUpdater.NET.resources.dll
+C:\Users\dwain\OneDrive\Desktop\Autio Update Back ups\AutoUpdater.NET.XMLOrig\AutoUpdaterTest\obj\Debug\AutoUpdaterTest.csproj.AssemblyReference.cache
+C:\Users\dwain\OneDrive\Desktop\Autio Update Back ups\AutoUpdater.NET.XMLOrig\AutoUpdaterTest\obj\Debug\AutoUpdaterTest.frmCreateXml.resources
+C:\Users\dwain\OneDrive\Desktop\Autio Update Back ups\AutoUpdater.NET.XMLOrig\AutoUpdaterTest\obj\Debug\AutoUpdaterTest.frmXmlCompleted.resources
+C:\Users\dwain\OneDrive\Desktop\Autio Update Back ups\AutoUpdater.NET.XMLOrig\AutoUpdaterTest\obj\Debug\AutoUpdaterTest.Properties.Resources.resources
+C:\Users\dwain\OneDrive\Desktop\Autio Update Back ups\AutoUpdater.NET.XMLOrig\AutoUpdaterTest\obj\Debug\AutoUpdaterTest.csproj.GenerateResource.cache
+C:\Users\dwain\OneDrive\Desktop\Autio Update Back ups\AutoUpdater.NET.XMLOrig\AutoUpdaterTest\obj\Debug\AutoUpdaterTest.csproj.CoreCompileInputs.cache
+C:\Users\dwain\OneDrive\Desktop\Autio Update Back ups\AutoUpdater.NET.XMLOrig\AutoUpdaterTest\obj\Debug\AutoUpdaterTest.csproj.CopyComplete
+C:\Users\dwain\OneDrive\Desktop\Autio Update Back ups\AutoUpdater.NET.XMLOrig\AutoUpdaterTest\obj\Debug\AutoUpdaterTest.exe
+C:\Users\dwain\OneDrive\Desktop\Autio Update Back ups\AutoUpdater.NET.XMLOrig\AutoUpdaterTest\obj\Debug\AutoUpdaterTest.pdb
