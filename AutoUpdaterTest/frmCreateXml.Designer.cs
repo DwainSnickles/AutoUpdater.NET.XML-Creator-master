@@ -38,8 +38,9 @@ namespace AutoUpdaterTest
             this.btnBack = new System.Windows.Forms.Button();
             this.btnNext = new System.Windows.Forms.Button();
             this.pnlChangelog = new System.Windows.Forms.Panel();
-            this.label20 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.label20 = new System.Windows.Forms.Label();
             this.txtChangelogURL = new System.Windows.Forms.TextBox();
             this.label19 = new System.Windows.Forms.Label();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
@@ -48,18 +49,6 @@ namespace AutoUpdaterTest
             this.label2 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.pnlSetMinversion = new System.Windows.Forms.Panel();
-            this.txtMinVersion = new System.Windows.Forms.TextBox();
-            this.picMinVersion = new System.Windows.Forms.PictureBox();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.pnl3 = new System.Windows.Forms.Panel();
-            this.rbMandatoryMinimumVersion = new System.Windows.Forms.RadioButton();
-            this.rbMandatoryMode2 = new System.Windows.Forms.RadioButton();
-            this.rbMandatoryMode1 = new System.Windows.Forms.RadioButton();
-            this.rbMandatory = new System.Windows.Forms.RadioButton();
-            this.rbOptionalUpdate = new System.Windows.Forms.RadioButton();
-            this.label18 = new System.Windows.Forms.Label();
             this.pnl6 = new System.Windows.Forms.Panel();
             this.pnl6A = new System.Windows.Forms.Panel();
             this.btnOpenXmlFolder = new System.Windows.Forms.Button();
@@ -71,6 +60,26 @@ namespace AutoUpdaterTest
             this.label15 = new System.Windows.Forms.Label();
             this.txtXmlFilename = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
+            this.pnl5 = new System.Windows.Forms.Panel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.label17 = new System.Windows.Forms.Label();
+            this.txtCommandLineArgs = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.pnlSetMinversion = new System.Windows.Forms.Panel();
+            this.label25 = new System.Windows.Forms.Label();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.txtMinVersion = new System.Windows.Forms.TextBox();
+            this.picMinVersion = new System.Windows.Forms.PictureBox();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.pnl3 = new System.Windows.Forms.Panel();
+            this.rbMandatoryMinimumVersion = new System.Windows.Forms.RadioButton();
+            this.rbMandatoryMode2 = new System.Windows.Forms.RadioButton();
+            this.rbMandatoryMode1 = new System.Windows.Forms.RadioButton();
+            this.rbMandatory = new System.Windows.Forms.RadioButton();
+            this.rbOptionalUpdate = new System.Windows.Forms.RadioButton();
+            this.label18 = new System.Windows.Forms.Label();
             this.pnl4 = new System.Windows.Forms.Panel();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.btnCalculateChecksum = new System.Windows.Forms.Button();
@@ -96,16 +105,7 @@ namespace AutoUpdaterTest
             this.txtDownloadURL = new System.Windows.Forms.TextBox();
             this.picDownloadURL = new System.Windows.Forms.PictureBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.pnl5 = new System.Windows.Forms.Panel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.label17 = new System.Windows.Forms.Label();
-            this.txtCommandLineArgs = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.label25 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
             this.statusStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.pnlChangelog.SuspendLayout();
@@ -117,20 +117,20 @@ namespace AutoUpdaterTest
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
-            this.pnlSetMinversion.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picMinVersion)).BeginInit();
-            this.pnl3.SuspendLayout();
             this.pnl6.SuspendLayout();
             this.pnl6A.SuspendLayout();
+            this.pnl5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.pnlSetMinversion.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picMinVersion)).BeginInit();
+            this.pnl3.SuspendLayout();
             this.pnl4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.pnl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picVersionStatus)).BeginInit();
             this.pnl2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picDownloadURL)).BeginInit();
-            this.pnl5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.SuspendLayout();
             // 
             // statusStrip1
@@ -212,16 +212,15 @@ namespace AutoUpdaterTest
             this.pnlChangelog.TabIndex = 5;
             this.pnlChangelog.Visible = false;
             // 
-            // label20
+            // label24
             // 
-            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(6, 21);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(261, 78);
-            this.label20.TabIndex = 19;
-            this.label20.Text = "changelog (Optional): You need to provide URL of the change log of your applicati" +
-    "on between changelog tags. If you don\'t provide the URL of the changelog then up" +
-    "date dialog won\'t show the change log.";
+            this.label24.AutoSize = true;
+            this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label24.Location = new System.Drawing.Point(6, 153);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(203, 16);
+            this.label24.TabIndex = 27;
+            this.label24.Text = "(Optional Click Next To Continue)";
             // 
             // pictureBox4
             // 
@@ -233,6 +232,17 @@ namespace AutoUpdaterTest
             this.pictureBox4.TabIndex = 18;
             this.pictureBox4.TabStop = false;
             this.toolTip1.SetToolTip(this.pictureBox4, "This is Optional.");
+            // 
+            // label20
+            // 
+            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.Location = new System.Drawing.Point(6, 21);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(261, 78);
+            this.label20.TabIndex = 19;
+            this.label20.Text = "changelog (Optional): You need to provide URL of the change log of your applicati" +
+    "on between changelog tags. If you don\'t provide the URL of the changelog then up" +
+    "date dialog won\'t show the change log.";
             // 
             // txtChangelogURL
             // 
@@ -265,10 +275,10 @@ namespace AutoUpdaterTest
             // 
             // splitContainer1.Panel2
             // 
+            this.splitContainer1.Panel2.Controls.Add(this.pnlSetMinversion);
             this.splitContainer1.Panel2.Controls.Add(this.pnl6);
             this.splitContainer1.Panel2.Controls.Add(this.pnlChangelog);
             this.splitContainer1.Panel2.Controls.Add(this.pnl5);
-            this.splitContainer1.Panel2.Controls.Add(this.pnlSetMinversion);
             this.splitContainer1.Panel2.Controls.Add(this.pnl3);
             this.splitContainer1.Panel2.Controls.Add(this.pnl4);
             this.splitContainer1.Panel2.Controls.Add(this.pnl1);
@@ -330,6 +340,196 @@ namespace AutoUpdaterTest
             this.label1.Text = "Xml Creator";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // pnl6
+            // 
+            this.pnl6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pnl6.Controls.Add(this.pnl6A);
+            this.pnl6.Controls.Add(this.btnSelectFolder_Click);
+            this.pnl6.Controls.Add(this.btnCreateXMLFile);
+            this.pnl6.Controls.Add(this.txtSaveToFolder);
+            this.pnl6.Controls.Add(this.label15);
+            this.pnl6.Controls.Add(this.txtXmlFilename);
+            this.pnl6.Controls.Add(this.label9);
+            this.pnl6.Location = new System.Drawing.Point(232, 105);
+            this.pnl6.Name = "pnl6";
+            this.pnl6.Size = new System.Drawing.Size(49, 73);
+            this.pnl6.TabIndex = 8;
+            // 
+            // pnl6A
+            // 
+            this.pnl6A.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pnl6A.Controls.Add(this.btnOpenXmlFolder);
+            this.pnl6A.Controls.Add(this.btnOpenXMLFile);
+            this.pnl6A.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.pnl6A.Enabled = false;
+            this.pnl6A.Location = new System.Drawing.Point(0, 28);
+            this.pnl6A.Name = "pnl6A";
+            this.pnl6A.Size = new System.Drawing.Size(45, 41);
+            this.pnl6A.TabIndex = 8;
+            // 
+            // btnOpenXmlFolder
+            // 
+            this.btnOpenXmlFolder.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnOpenXmlFolder.ImageIndex = 0;
+            this.btnOpenXmlFolder.ImageList = this.imageList1;
+            this.btnOpenXmlFolder.Location = new System.Drawing.Point(149, 7);
+            this.btnOpenXmlFolder.Name = "btnOpenXmlFolder";
+            this.btnOpenXmlFolder.Size = new System.Drawing.Size(117, 23);
+            this.btnOpenXmlFolder.TabIndex = 8;
+            this.btnOpenXmlFolder.Text = "      Open XMLFolder";
+            this.toolTip1.SetToolTip(this.btnOpenXmlFolder, "Opens the  XML file in file explorer.");
+            this.btnOpenXmlFolder.UseVisualStyleBackColor = true;
+            this.btnOpenXmlFolder.Click += new System.EventHandler(this.btnOpenXmlFolder_Click_1);
+            // 
+            // imageList1
+            // 
+            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
+            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList1.Images.SetKeyName(0, "xml.svg.png");
+            this.imageList1.Images.SetKeyName(1, "xml_featured.png");
+            this.imageList1.Images.SetKeyName(2, "xml_Folder.png");
+            this.imageList1.Images.SetKeyName(3, "xml1.png");
+            this.imageList1.Images.SetKeyName(4, "xmlRound.png");
+            this.imageList1.Images.SetKeyName(5, "xmlWrite.png");
+            this.imageList1.Images.SetKeyName(6, "Folder1.png");
+            this.imageList1.Images.SetKeyName(7, "dial_knob.png");
+            // 
+            // btnOpenXMLFile
+            // 
+            this.btnOpenXMLFile.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnOpenXMLFile.ImageIndex = 1;
+            this.btnOpenXMLFile.ImageList = this.imageList1;
+            this.btnOpenXMLFile.Location = new System.Drawing.Point(10, 7);
+            this.btnOpenXMLFile.Name = "btnOpenXMLFile";
+            this.btnOpenXMLFile.Size = new System.Drawing.Size(121, 23);
+            this.btnOpenXMLFile.TabIndex = 7;
+            this.btnOpenXMLFile.Text = "View XML File";
+            this.toolTip1.SetToolTip(this.btnOpenXMLFile, "Opens the  XML file in Browser");
+            this.btnOpenXMLFile.UseVisualStyleBackColor = true;
+            this.btnOpenXMLFile.Click += new System.EventHandler(this.btnOpenXMLFile_Click_1);
+            // 
+            // btnSelectFolder_Click
+            // 
+            this.btnSelectFolder_Click.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSelectFolder_Click.ImageIndex = 6;
+            this.btnSelectFolder_Click.ImageList = this.imageList1;
+            this.btnSelectFolder_Click.Location = new System.Drawing.Point(239, 75);
+            this.btnSelectFolder_Click.Name = "btnSelectFolder_Click";
+            this.btnSelectFolder_Click.Size = new System.Drawing.Size(32, 23);
+            this.btnSelectFolder_Click.TabIndex = 7;
+            this.toolTip1.SetToolTip(this.btnSelectFolder_Click, "Select the folder to save the XML file to.");
+            this.btnSelectFolder_Click.UseVisualStyleBackColor = true;
+            this.btnSelectFolder_Click.Click += new System.EventHandler(this.btnOpenXmlFolder_Click);
+            // 
+            // btnCreateXMLFile
+            // 
+            this.btnCreateXMLFile.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnCreateXMLFile.ImageIndex = 5;
+            this.btnCreateXMLFile.ImageList = this.imageList1;
+            this.btnCreateXMLFile.Location = new System.Drawing.Point(72, 103);
+            this.btnCreateXMLFile.Name = "btnCreateXMLFile";
+            this.btnCreateXMLFile.Size = new System.Drawing.Size(133, 23);
+            this.btnCreateXMLFile.TabIndex = 5;
+            this.btnCreateXMLFile.Text = "  Create XML File";
+            this.toolTip1.SetToolTip(this.btnCreateXMLFile, "Creates the XML File");
+            this.btnCreateXMLFile.UseVisualStyleBackColor = true;
+            this.btnCreateXMLFile.Click += new System.EventHandler(this.btnCreateXMLFile_Click);
+            // 
+            // txtSaveToFolder
+            // 
+            this.txtSaveToFolder.Location = new System.Drawing.Point(13, 77);
+            this.txtSaveToFolder.Name = "txtSaveToFolder";
+            this.txtSaveToFolder.Size = new System.Drawing.Size(221, 20);
+            this.txtSaveToFolder.TabIndex = 3;
+            this.txtSaveToFolder.TextChanged += new System.EventHandler(this.txtSaveToFolder_TextChanged);
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(13, 61);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(113, 13);
+            this.label15.TabIndex = 2;
+            this.label15.Text = "Select Save To Folder";
+            // 
+            // txtXmlFilename
+            // 
+            this.txtXmlFilename.Location = new System.Drawing.Point(13, 32);
+            this.txtXmlFilename.Name = "txtXmlFilename";
+            this.txtXmlFilename.Size = new System.Drawing.Size(168, 20);
+            this.txtXmlFilename.TabIndex = 1;
+            this.txtXmlFilename.TextChanged += new System.EventHandler(this.txtXmlFilename_TextChanged);
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(13, 16);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(102, 13);
+            this.label9.TabIndex = 0;
+            this.label9.Text = "Enter XML filename:";
+            // 
+            // pnl5
+            // 
+            this.pnl5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pnl5.Controls.Add(this.pictureBox2);
+            this.pnl5.Controls.Add(this.label17);
+            this.pnl5.Controls.Add(this.txtCommandLineArgs);
+            this.pnl5.Controls.Add(this.label7);
+            this.pnl5.Controls.Add(this.label8);
+            this.pnl5.Location = new System.Drawing.Point(103, 67);
+            this.pnl5.Name = "pnl5";
+            this.pnl5.Size = new System.Drawing.Size(57, 48);
+            this.pnl5.TabIndex = 10;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(214, 80);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(56, 50);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 27;
+            this.pictureBox2.TabStop = false;
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.Location = new System.Drawing.Point(0, -52);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(203, 16);
+            this.label17.TabIndex = 26;
+            this.label17.Text = "(Optional Click Next To Continue)";
+            // 
+            // txtCommandLineArgs
+            // 
+            this.txtCommandLineArgs.Location = new System.Drawing.Point(3, 131);
+            this.txtCommandLineArgs.Name = "txtCommandLineArgs";
+            this.txtCommandLineArgs.Size = new System.Drawing.Size(267, 20);
+            this.txtCommandLineArgs.TabIndex = 25;
+            this.txtCommandLineArgs.TextChanged += new System.EventHandler(this.txtCommandLineArgs_TextChanged_1);
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(4, 111);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(115, 15);
+            this.label7.TabIndex = 24;
+            this.label7.Text = "Enter Optional Args:";
+            // 
+            // label8
+            // 
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(4, 19);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(268, 69);
+            this.label8.TabIndex = 23;
+            this.label8.Text = resources.GetString("label8.Text");
+            // 
             // pnlSetMinversion
             // 
             this.pnlSetMinversion.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
@@ -339,10 +539,31 @@ namespace AutoUpdaterTest
             this.pnlSetMinversion.Controls.Add(this.picMinVersion);
             this.pnlSetMinversion.Controls.Add(this.label22);
             this.pnlSetMinversion.Controls.Add(this.label21);
-            this.pnlSetMinversion.Location = new System.Drawing.Point(9, 67);
+            this.pnlSetMinversion.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlSetMinversion.Location = new System.Drawing.Point(0, 0);
             this.pnlSetMinversion.Name = "pnlSetMinversion";
-            this.pnlSetMinversion.Size = new System.Drawing.Size(80, 73);
+            this.pnlSetMinversion.Size = new System.Drawing.Size(281, 178);
             this.pnlSetMinversion.TabIndex = 9;
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label25.Location = new System.Drawing.Point(5, 154);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(203, 16);
+            this.label25.TabIndex = 27;
+            this.label25.Text = "(Optional Click Next To Continue)";
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::AutoUpdaterTest.Properties.Resources.Optional;
+            this.pictureBox5.Location = new System.Drawing.Point(183, 89);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(84, 64);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox5.TabIndex = 26;
+            this.pictureBox5.TabStop = false;
             // 
             // txtMinVersion
             // 
@@ -464,136 +685,6 @@ namespace AutoUpdaterTest
             this.label18.Size = new System.Drawing.Size(190, 16);
             this.label18.TabIndex = 0;
             this.label18.Text = "Select Update Mode Type";
-            // 
-            // pnl6
-            // 
-            this.pnl6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pnl6.Controls.Add(this.pnl6A);
-            this.pnl6.Controls.Add(this.btnSelectFolder_Click);
-            this.pnl6.Controls.Add(this.btnCreateXMLFile);
-            this.pnl6.Controls.Add(this.txtSaveToFolder);
-            this.pnl6.Controls.Add(this.label15);
-            this.pnl6.Controls.Add(this.txtXmlFilename);
-            this.pnl6.Controls.Add(this.label9);
-            this.pnl6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnl6.Location = new System.Drawing.Point(0, 0);
-            this.pnl6.Name = "pnl6";
-            this.pnl6.Size = new System.Drawing.Size(281, 178);
-            this.pnl6.TabIndex = 8;
-            // 
-            // pnl6A
-            // 
-            this.pnl6A.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pnl6A.Controls.Add(this.btnOpenXmlFolder);
-            this.pnl6A.Controls.Add(this.btnOpenXMLFile);
-            this.pnl6A.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnl6A.Enabled = false;
-            this.pnl6A.Location = new System.Drawing.Point(0, 133);
-            this.pnl6A.Name = "pnl6A";
-            this.pnl6A.Size = new System.Drawing.Size(277, 41);
-            this.pnl6A.TabIndex = 8;
-            // 
-            // btnOpenXmlFolder
-            // 
-            this.btnOpenXmlFolder.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnOpenXmlFolder.ImageIndex = 0;
-            this.btnOpenXmlFolder.ImageList = this.imageList1;
-            this.btnOpenXmlFolder.Location = new System.Drawing.Point(149, 7);
-            this.btnOpenXmlFolder.Name = "btnOpenXmlFolder";
-            this.btnOpenXmlFolder.Size = new System.Drawing.Size(117, 23);
-            this.btnOpenXmlFolder.TabIndex = 8;
-            this.btnOpenXmlFolder.Text = "      Open XMLFolder";
-            this.toolTip1.SetToolTip(this.btnOpenXmlFolder, "Opens the  XML file in file explorer.");
-            this.btnOpenXmlFolder.UseVisualStyleBackColor = true;
-            this.btnOpenXmlFolder.Click += new System.EventHandler(this.btnOpenXmlFolder_Click_1);
-            // 
-            // imageList1
-            // 
-            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
-            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
-            this.imageList1.Images.SetKeyName(0, "xml.svg.png");
-            this.imageList1.Images.SetKeyName(1, "xml_featured.png");
-            this.imageList1.Images.SetKeyName(2, "xml_Folder.png");
-            this.imageList1.Images.SetKeyName(3, "xml1.png");
-            this.imageList1.Images.SetKeyName(4, "xmlRound.png");
-            this.imageList1.Images.SetKeyName(5, "xmlWrite.png");
-            this.imageList1.Images.SetKeyName(6, "Folder1.png");
-            this.imageList1.Images.SetKeyName(7, "dial_knob.png");
-            // 
-            // btnOpenXMLFile
-            // 
-            this.btnOpenXMLFile.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnOpenXMLFile.ImageIndex = 1;
-            this.btnOpenXMLFile.ImageList = this.imageList1;
-            this.btnOpenXMLFile.Location = new System.Drawing.Point(10, 7);
-            this.btnOpenXMLFile.Name = "btnOpenXMLFile";
-            this.btnOpenXMLFile.Size = new System.Drawing.Size(121, 23);
-            this.btnOpenXMLFile.TabIndex = 7;
-            this.btnOpenXMLFile.Text = "View XML File";
-            this.toolTip1.SetToolTip(this.btnOpenXMLFile, "Opens the  XML file in Browser");
-            this.btnOpenXMLFile.UseVisualStyleBackColor = true;
-            this.btnOpenXMLFile.Click += new System.EventHandler(this.btnOpenXMLFile_Click_1);
-            // 
-            // btnSelectFolder_Click
-            // 
-            this.btnSelectFolder_Click.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSelectFolder_Click.ImageIndex = 6;
-            this.btnSelectFolder_Click.ImageList = this.imageList1;
-            this.btnSelectFolder_Click.Location = new System.Drawing.Point(239, 75);
-            this.btnSelectFolder_Click.Name = "btnSelectFolder_Click";
-            this.btnSelectFolder_Click.Size = new System.Drawing.Size(32, 23);
-            this.btnSelectFolder_Click.TabIndex = 7;
-            this.toolTip1.SetToolTip(this.btnSelectFolder_Click, "Select the folder to save the XML file to.");
-            this.btnSelectFolder_Click.UseVisualStyleBackColor = true;
-            this.btnSelectFolder_Click.Click += new System.EventHandler(this.btnOpenXmlFolder_Click);
-            // 
-            // btnCreateXMLFile
-            // 
-            this.btnCreateXMLFile.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCreateXMLFile.ImageIndex = 5;
-            this.btnCreateXMLFile.ImageList = this.imageList1;
-            this.btnCreateXMLFile.Location = new System.Drawing.Point(72, 103);
-            this.btnCreateXMLFile.Name = "btnCreateXMLFile";
-            this.btnCreateXMLFile.Size = new System.Drawing.Size(133, 23);
-            this.btnCreateXMLFile.TabIndex = 5;
-            this.btnCreateXMLFile.Text = "  Create XML File";
-            this.toolTip1.SetToolTip(this.btnCreateXMLFile, "Creates the XML File");
-            this.btnCreateXMLFile.UseVisualStyleBackColor = true;
-            this.btnCreateXMLFile.Click += new System.EventHandler(this.btnCreateXMLFile_Click);
-            // 
-            // txtSaveToFolder
-            // 
-            this.txtSaveToFolder.Location = new System.Drawing.Point(13, 77);
-            this.txtSaveToFolder.Name = "txtSaveToFolder";
-            this.txtSaveToFolder.Size = new System.Drawing.Size(221, 20);
-            this.txtSaveToFolder.TabIndex = 3;
-            this.txtSaveToFolder.TextChanged += new System.EventHandler(this.txtSaveToFolder_TextChanged);
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(13, 61);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(113, 13);
-            this.label15.TabIndex = 2;
-            this.label15.Text = "Select Save To Folder";
-            // 
-            // txtXmlFilename
-            // 
-            this.txtXmlFilename.Location = new System.Drawing.Point(13, 32);
-            this.txtXmlFilename.Name = "txtXmlFilename";
-            this.txtXmlFilename.Size = new System.Drawing.Size(168, 20);
-            this.txtXmlFilename.TabIndex = 1;
-            this.txtXmlFilename.TextChanged += new System.EventHandler(this.txtXmlFilename_TextChanged);
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(13, 16);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(102, 13);
-            this.label9.TabIndex = 0;
-            this.label9.Text = "Enter XML filename:";
             // 
             // pnl4
             // 
@@ -870,97 +961,6 @@ namespace AutoUpdaterTest
             this.label5.TabIndex = 4;
             this.label5.Text = resources.GetString("label5.Text");
             // 
-            // pnl5
-            // 
-            this.pnl5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pnl5.Controls.Add(this.pictureBox2);
-            this.pnl5.Controls.Add(this.label17);
-            this.pnl5.Controls.Add(this.txtCommandLineArgs);
-            this.pnl5.Controls.Add(this.label7);
-            this.pnl5.Controls.Add(this.label8);
-            this.pnl5.Location = new System.Drawing.Point(103, 67);
-            this.pnl5.Name = "pnl5";
-            this.pnl5.Size = new System.Drawing.Size(57, 48);
-            this.pnl5.TabIndex = 10;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(214, 80);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(56, 50);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 27;
-            this.pictureBox2.TabStop = false;
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(0, -52);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(203, 16);
-            this.label17.TabIndex = 26;
-            this.label17.Text = "(Optional Click Next To Continue)";
-            // 
-            // txtCommandLineArgs
-            // 
-            this.txtCommandLineArgs.Location = new System.Drawing.Point(3, 131);
-            this.txtCommandLineArgs.Name = "txtCommandLineArgs";
-            this.txtCommandLineArgs.Size = new System.Drawing.Size(267, 20);
-            this.txtCommandLineArgs.TabIndex = 25;
-            this.txtCommandLineArgs.TextChanged += new System.EventHandler(this.txtCommandLineArgs_TextChanged_1);
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(4, 111);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(115, 15);
-            this.label7.TabIndex = 24;
-            this.label7.Text = "Enter Optional Args:";
-            // 
-            // label8
-            // 
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(4, 19);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(268, 69);
-            this.label8.TabIndex = 23;
-            this.label8.Text = resources.GetString("label8.Text");
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = global::AutoUpdaterTest.Properties.Resources.Optional;
-            this.pictureBox5.Location = new System.Drawing.Point(183, 89);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(84, 64);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox5.TabIndex = 26;
-            this.pictureBox5.TabStop = false;
-            // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.Location = new System.Drawing.Point(5, 154);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(203, 16);
-            this.label25.TabIndex = 27;
-            this.label25.Text = "(Optional Click Next To Continue)";
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.Location = new System.Drawing.Point(6, 153);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(203, 16);
-            this.label24.TabIndex = 27;
-            this.label24.Text = "(Optional Click Next To Continue)";
-            // 
             // frmCreateXml
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -988,14 +988,18 @@ namespace AutoUpdaterTest
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
-            this.pnlSetMinversion.ResumeLayout(false);
-            this.pnlSetMinversion.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picMinVersion)).EndInit();
-            this.pnl3.ResumeLayout(false);
-            this.pnl3.PerformLayout();
             this.pnl6.ResumeLayout(false);
             this.pnl6.PerformLayout();
             this.pnl6A.ResumeLayout(false);
+            this.pnl5.ResumeLayout(false);
+            this.pnl5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.pnlSetMinversion.ResumeLayout(false);
+            this.pnlSetMinversion.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picMinVersion)).EndInit();
+            this.pnl3.ResumeLayout(false);
+            this.pnl3.PerformLayout();
             this.pnl4.ResumeLayout(false);
             this.pnl4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
@@ -1005,10 +1009,6 @@ namespace AutoUpdaterTest
             this.pnl2.ResumeLayout(false);
             this.pnl2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picDownloadURL)).EndInit();
-            this.pnl5.ResumeLayout(false);
-            this.pnl5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.ResumeLayout(false);
 
         }

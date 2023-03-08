@@ -429,10 +429,10 @@ namespace AutoUpdaterTest
             pnlSetMinversion.Visible = true;
             pnlSetMinversion.Dock = DockStyle.Fill;
             pnlSetMinversion.BringToFront();
-            rbMandatoryMinimumVersion.Checked = false;
-            xMLitems.MandatoryType = AutoUpdateXMLitems.MandatoryTypes.MandatoryMinVersion;
+            //rbMandatoryMinimumVersion.Checked = false;
             if (txtMinVersion.Text != string.Empty)
             {
+                xMLitems.MandatoryType = AutoUpdateXMLitems.MandatoryTypes.MandatoryMinVersion;
                 xMLitems.mandatory_minVersion = true;
                 xMLitems.minVersion = txtMinVersion.Text;
             }
@@ -573,6 +573,7 @@ namespace AutoUpdaterTest
                     this.pnl6.Dock = System.Windows.Forms.DockStyle.Fill;
                     labelStatus.Text = "Enter XML file name and click next to continue";
                     pnl6.BringToFront();
+                    pnl6A.Dock = DockStyle.Bottom;
                     break;
 
                 default:
